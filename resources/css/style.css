@@ -1,0 +1,717 @@
+/* couleur : #a2c73b*/
+
+/* dark : #8dae32 */
+
+/*-------------------------------------------*/
+
+/* BASIC SETUPS */
+
+/*-------------------------------------------*/
+
+* {
+	/* A faire dès le début ! */
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	/* Réglages de base */
+	background-color: #fff;
+	color: #555;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+}
+
+
+.clearfix {
+	zoom: 1
+}
+
+.clearfix:after {
+	content: ',';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+
+
+/*-------------------------------------------*/
+
+/* REUSABLE COMPONENTS */
+
+/*-------------------------------------------*/
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+section {
+	padding: 60px 0;
+}
+
+
+/* -- text -- */
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 240%;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+	color: #333;
+}
+
+h1:after {
+	display: block;
+	height: 2px;
+	background-color: #a2c73b;
+	content: "";
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 30px;
+	z-index: 1;
+}
+
+h2 {
+	font-size: 180%;
+	text-align: center;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	margin-bottom: 60px;
+	border-bottom: 2px solid #a2c73b;
+	border-top: 2px solid #a2c73b;
+	padding: 20px 0;
+
+}
+
+h3 {
+	font-size: 120%;
+	word-spacing: 1px;
+	margin-bottom: 20px;
+	color: #666;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+h3:hover {
+	color: #8dae32;
+}
+
+h4 {
+	color: #333;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin: 15px 0 0 0;
+}
+
+p {
+	text-align: justify;
+}
+
+.col p {
+	text-align: left;
+}
+
+/* -- links -- */
+
+a:link,
+a:visited {
+	border-bottom: 3px solid transparent;
+	-webkit-transition: border-bottom 0.2s;
+	transition: border-bottom 0.2s;
+	padding-bottom: 5px;
+	color: #333;
+	text-decoration: none;
+}
+
+a:active,
+a:hover {
+	border-bottom: 2px solid #a2c73b;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	margin-left: 25px;
+}
+
+.important-link {
+	font-weight: 400;
+}
+
+/*-- icons --*/
+
+.icon-big {
+	display: block;
+	margin: 0 40%;
+	color: #a2c73b;
+	font-size: 300%;
+	margin-bottom: 30px;
+
+}
+
+.icon-header {
+	padding: 15px;
+	color: #8dae32;
+	font-size: 300%;
+	display: inline-block;
+	border: 2px solid #a2c73b;
+	border-radius: 50%;
+
+}
+
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* INDEX PAGE */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+.section-menu {
+	margin: 0;
+	padding: 0;
+	height: 40px;
+}
+
+.section-menu a {
+	font-size: 60%;
+}
+
+/*-------------------------------------------*/
+
+/* HEADER */
+
+/*-------------------------------------------*/
+
+header {
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.main-header {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.9))), url(img/renewable-1989416_1920.jpg);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url(img/renewable-1989416_1920.jpg);
+}
+
+
+.main-section {
+	position: absolute;
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+	top: 35%;
+	left: 25%;
+}
+
+
+
+
+/* -- Buttons -- */
+
+.icon-wind {
+	font-size: 260%;
+	padding: 20px 15px;
+}
+
+.link-box {
+	margin: 20px auto;
+	height: 100px;
+	width: 200px;
+}
+
+
+.btn:link h3,
+.btn:visited h3 {
+	display: none;
+}
+
+.btn:hover h3,
+.btn:active h3 {
+	display: inline-block;
+	margin: 30px 0;
+}
+
+.btn:hover .icon-header,
+.btn:active .icon-header {
+	display: none;
+}
+
+.btn:hover h4,
+.btn:active h4 {
+	display: none;
+}
+
+.btn-box img {
+	width: 120px;
+	height: auto;
+}
+
+
+
+/*-- main nav -- */
+
+.logo {
+	display: inline-block;
+	float: left;
+	height: 62px;
+	width: auto;
+	margin-top: 15px;
+}
+
+.main-nav,
+.main-nav-solar {
+	float: right;
+	list-style: none;
+	margin-top: 40px;
+}
+
+.main-nav li,
+.main-nav-solar li {
+	display: inline-block;
+	font-size: 85%;
+}
+
+
+
+.mobile-nav-icon {
+	float: right;
+	margin-top: 30px;
+	cursor: pointer;
+	display: none;
+	font-size: 200%;
+	z-index: 1000;
+}
+
+.mobile-nav-icon:hover,
+.mobile-nav-icon:active {
+	border: 0;
+}
+
+
+/* -- Dropdown content -- */
+
+.sub-menu-1 {
+	position: absolute;
+	right: 5%;
+	background-color: rgba(237, 237, 237, 0.4);
+	width: 750px;
+	height: auto;
+	z-index: 1;
+	-webkit-box-shadow: 0 2px 2px #909090;
+	box-shadow: 0 2px 2px #909090;
+}
+
+
+.sub-menu-1 li {
+	display: none;
+	font-size: 94%;
+}
+
+
+.sub-menu-2 {
+	margin-top: 15px;
+	padding: 0 16px 5px 0;
+	border-spacing: 20px;
+	width: 100%;
+	line-height: 40px;
+}
+
+.sub-menu-2 li {
+	display: block;
+}
+
+
+.main-nav li:hover .sub-item {
+	display: inline-block;
+}
+
+
+/*--------------------*/
+
+/* --- mobile nav --- */
+
+.mobile .wallpaper {
+	display: block;
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background-color: #d9d9d9;
+	z-index: 1;
+}
+
+.mobile .main-nav {
+	display: block;
+	position: absolute;
+	padding-top: 60px;
+	right: 0;
+	top: -7%;
+	float: left;
+	list-style: none;
+	background-color: #e8e8e8;
+	height: 100%;
+	width: 50%;
+	z-index: 999;
+}
+
+.mobile .main-nav li {
+	display: block;
+	font-size: 100%;
+	padding: 0 16px 5px 0;
+	border-spacing: 20px;
+	margin-top: 15px;
+}
+
+
+
+
+/* -- Dropdown content -- */
+
+.mobile .sub-menu-1 {
+	position: absolute;
+	top: 7%;
+	right: 85%;
+	width: 100%;
+	height: 0;
+	z-index: 2;
+	background-color: rgba(255, 255, 255, 0);
+	-webkit-box-shadow: 0 0 0 rgba(144, 144, 144, 0);
+	box-shadow: 0 0 0 rgba(144, 144, 144, 0);
+
+}
+
+
+.mobile .sub-menu-1 li {
+	display: none;
+}
+
+.mobile .sub-item li {
+	display: block;
+	text-align: right;
+}
+
+.mobile .sub-menu-2 a:hover,
+.mobile .sub-menu-2 a:visited {
+	border-bottom: 1px solid rgba(255, 255, 255, 0);
+	font-weight: 400;
+}
+
+
+.mobile .sub-menu-2 {
+	margin-top: 15px;
+	line-height: 20px;
+}
+
+.mobile .sub-menu-2 li {
+	display: block;
+}
+
+
+.mobile .main-nav li:hover .sub-item {
+	display: block;
+}
+
+.mobile .main-nav li:hover .sub-menu-1 {
+	height: 100%;
+}
+
+/*-------------------------------------------*/
+
+/* FIELDS */
+
+/*-------------------------------------------*/
+
+.field-box {
+	padding: 40px 20px;
+	margin: 10px 10px;
+	border: 1px solid rgba(85, 85, 85, 0.7);
+	border-radius: 1%;
+	-webkit-transition: -webkit-transform 0.2s;
+	transition: -webkit-transform 0.2s;
+	transition: transform 0.2s;
+	transition: transform 0.2s, -webkit-transform 0.2s;
+	height: 350px;
+}
+
+.field-box:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+/*-------------------------------------------*/
+
+/*  NEWS */
+
+/*-------------------------------------------*/
+
+/*
+.section-news {
+    background-color: #faf7f7;
+}
+
+.news-big {
+    margin-bottom: 50px;
+}
+
+.news-box {
+    vertical-align: middle;
+    padding: 0 30px;
+    vertical-align: middle;
+	margin-bottom: 20px;
+}
+
+.section-news img,
+.section-two img{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.news-one img {
+    float:right;
+}
+*/
+
+/*-------------------------------------------*/
+
+/* FORM */
+
+/*-------------------------------------------*/
+
+.section-form {
+	background-color: #faf7f7;
+}
+
+.form-box {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.office {
+	margin: 30px 0;
+}
+
+.office h3 {
+	margin-bottom: 7px;
+}
+
+.office p {
+	margin-bottom: 7px;
+}
+
+
+
+input,
+textarea {
+	width: 100%;
+	padding: 7px;
+	margin: 4px 0;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+}
+
+textarea {
+	height: 200px;
+}
+
+*:focus {
+	outline: none;
+}
+
+
+/*-------------------------------------------*/
+
+/* FOOTER */
+
+/*-------------------------------------------*/
+
+footer {
+	background-color: rgba(208, 208, 208, 0.9);
+}
+
+footer li {
+	float: left;
+	font-size: 70%;
+}
+
+footer p {
+	text-align: center;
+	font-size: 80%;
+}
+
+.language-links {
+	float: right;
+}
+
+.footer-nav li:first-child {
+	margin-left: 0;
+}
+
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* SOLAR PAGE */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+.section-even {
+	background-color: #faf7f7;
+}
+
+.main-section-solar {
+	top: 35%;
+}
+
+.main-section-solar h2 {
+	border: 0;
+	font-weight: 300;
+	color: #333;
+	font-size: 100%;
+}
+
+/*-------------------------------------------*/
+
+/* HEADER */
+
+/*-------------------------------------------*/
+
+.header-solar {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.9))), url(img/antonio-garcia-339626-unsplash.jpg);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url(img/antonio-garcia-339626-unsplash.jpg);
+}
+
+/*-------------------------------------------*/
+
+/* SOLAR PROJECTS */
+
+/*-------------------------------------------*/
+
+.projects-showcase {
+	width: 100%;
+}
+
+.projects-showcase li {
+	display: block;
+	float: left;
+	width: 25%;
+	margin: 0;
+}
+
+.project-photo {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	background-color: #000;
+	padding: 0;
+}
+
+.project-photo img {
+	width: 100%;
+	height: auto;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	-webkit-transition: .5s ease;
+	transition: .5s ease;
+	background-color: #333;
+}
+
+.project-photo:hover .overlay {
+	opacity: 0.97;
+}
+
+.project-photo p {
+	color: #fff;
+	font-size: 85%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+/*-------------------------------------------*/
+
+/* PPA */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* LANDOWNERS */
+
+/*-------------------------------------------*/
+
+.section-landowners {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(226, 226, 226, 0.7))), url(img/cytonn-photography-604681-unsplash.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(226, 226, 226, 0.7)), url(img/cytonn-photography-604681-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+.info-text {
+	width: 74%;
+	margin: 0 auto;
+	word-spacing: 3px;
+}
+
+
+/*-------------------------------------------*/
+
+/* INVESTORS */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* WIND PAGE */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+.header-wind {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.9))), url(img/luca-bravo-132630-unsplash.jpg);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url(img/luca-bravo-132630-unsplash.jpg);
+}
