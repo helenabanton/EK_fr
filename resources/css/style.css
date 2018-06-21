@@ -435,6 +435,35 @@ header {
 
 /*-------------------------------------------*/
 
+/* ENTREPPRISE */
+
+/*-------------------------------------------*/
+
+.bulle{
+    border: 1px solid #8dae32;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.bulle p{
+    font-size: 300%;
+    line-height: 90%;
+    padding-top: 23%;
+    text-align: center;
+}
+
+.text-entreprise{
+    margin-left: 50px;
+}
+
+.text-entreprise p{
+    text-align: justify;
+    padding-top: 25px
+}
+
+/*-------------------------------------------*/
+
 /* FIELDS */
 
 /*-------------------------------------------*/
