@@ -431,3 +431,114 @@ footer p {
 	margin-left: 0;
 }
 
+
+
+
+
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* PROJECTS PAGE */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+.progressbar {
+	counter-reset: step;
+    margin-left: 5%;
+}
+
+.progressbar li{
+	float: left;
+	width: 16%;
+	position: relative;
+	text-align:center;
+	cursor: pointer;
+}
+
+.progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border: 2px solid #666;
+	display: block;
+	text-align: center;
+	margin: 0 auto 10px auto;
+	border-radius: 50%;
+	background-color: #fff;
+	z-index: 2;
+}
+
+.progressbar li:after {
+	content: '';
+	position: absolute;
+	width: 95%;
+	height: 3px;
+	background-color: #666;
+	top: 15px;
+	left: -55%;
+	z-index:1;
+}
+
+.progressbar li:first-child:after {
+	content: none;
+}
+
+.progressbar li.active {
+	color: #a2c73b;
+	transition: color 0.5s ease;
+}
+
+.progressbar li.active h3 {
+	color: #a2c73b;
+	transition: color 0.5s ease;
+}
+
+.progressbar li.active:before {
+	border-color: #a2c73b;
+	transition: border-color 0.5s ease;
+}
+
+.progressbar li.active:after {
+	background-color: #a2c73b;
+	transition: background-color 0.5s ease;
+}
+
+.stages-text {
+	width:90%;
+	height: 250px;
+	margin: 0 auto;
+	padding : 30px 40px;
+	border: 1px solid #8dae32;
+	line-height: 140%;
+}
+
+.stages-text p{
+	display: none;
+}
+
+.stages-text p:first-child{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
