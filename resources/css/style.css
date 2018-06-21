@@ -435,6 +435,53 @@ header {
 
 /*-------------------------------------------*/
 
+/* ENTREPPRISE */
+
+/*-------------------------------------------*/
+
+.bulle{
+    border: 1px solid #8dae32;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.bulle p{
+    font-size: 300%;
+    color: #555555;
+    line-height: 90%;
+    padding-top: 23%;
+    text-align: center;
+}
+
+.text-entreprise p{
+    text-align: justify;
+    padding-top: 30px;
+}
+
+.age-entreprise .text-entreprise{
+    float: right;
+}
+
+.age-entreprise .bulle{
+    background-image: linear-gradient(rgba(227, 227, 227, 0.59),rgba(206, 206, 206, 0.94)),url(img/wood.jpg);
+    background-size: 150%;
+    margin-left: 20px;
+}
+
+.taille-entreprise{
+    float: left;
+}
+
+.taille-entreprise .bulle{
+    background-image: linear-gradient(rgba(227, 227, 227, 0.17),rgba(227, 227, 227, 0.83)),url(img/map-pins.jpg);
+    background-size: 150%;
+    float: right;
+    margin-right: 20px;
+}
+
+/*-------------------------------------------*/
+
 /* FIELDS */
 
 /*-------------------------------------------*/
