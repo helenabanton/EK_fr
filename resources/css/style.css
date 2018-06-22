@@ -114,11 +114,17 @@ h4 {
 
 p {
 	text-align: justify;
+	line-height: 140%;
 }
 
 .col p {
 	text-align: left;
 }
+
+.info-text {
+	width: 80%;
+}
+
 
 /* -- links -- */
 
@@ -514,6 +520,14 @@ footer p {
 
 /*-------------------------------------------*/
 
+
+/*-------------------------------------------*/
+
+/* DEVELOPMENT */
+
+/*-------------------------------------------*/
+
+/* progress bar */
 .progressbar {
 	counter-reset: step;
     margin-left: 5%;
@@ -583,7 +597,6 @@ footer p {
 	margin: 0 auto;
 	padding : 30px 40px;
 	border: 1px solid #8dae32;
-	line-height: 140%;
 }
 
 .stages-text p{
@@ -599,10 +612,32 @@ footer p {
 
 
 
+/*-------------------------------------------*/
+
+/* OWNERS */
+
+/*-------------------------------------------*/
+
+.section-owners {
+	background-color: #faf7f7;
+}
+
+.btn-contact:link, .btn-contact:visited{
+	display: inline-block;
+	margin: 30px 35%;
+	border: 2px solid #a2c73b;
+	color: #a2c73b;
+    padding : 10px 30px;
+    border-radius: 200px;
+	transition: border 0.2s, background-color 0.2s, color 0.2s;
+}
 
 
-
-
+.btn-contact:hover, .btn-contact:active{
+	border: 2px solid #8dae32;
+	background-color: #8dae32;
+	color: #fff;
+}
 
 
 
