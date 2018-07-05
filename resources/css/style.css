@@ -114,11 +114,17 @@ h4 {
 
 p {
 	text-align: justify;
+	line-height: 140%;
 }
 
 .col p {
 	text-align: left;
 }
+
+.info-text {
+	width: 80%;
+}
+
 
 /* -- links -- */
 
@@ -168,15 +174,19 @@ ul li {
 
 }
 
-.icon-header {
-	padding: 15px;
-	color: #8dae32;
-	font-size: 300%;
-	display: inline-block;
-	border: 2px solid #a2c73b;
-	border-radius: 50%;
 
+/*--- php ---*/
+
+.error {
+	padding: 10px;
+	background-color: rgba(172, 0, 0, 0.25);
 }
+
+.success {
+	padding: 10px;
+	background-color: rgba(162, 199, 59, 0.25);
+}
+
 
 
 /*-------------------------------------------*/
@@ -212,6 +222,10 @@ header {
 	height: 100vh;
 }
 
+.form-header {
+	height: 85px;
+}
+
 .main-header {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.9))), url(img/renewable-1989416_1920.jpg);
 	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url(img/renewable-1989416_1920.jpg);
@@ -229,49 +243,6 @@ header {
 
 
 
-
-/* -- Buttons -- */
-
-.icon-wind {
-	font-size: 260%;
-	padding: 20px 15px;
-}
-
-.link-box {
-	margin: 20px auto;
-	height: 100px;
-	width: 200px;
-}
-
-
-.btn:link h3,
-.btn:visited h3 {
-	display: none;
-}
-
-.btn:hover h3,
-.btn:active h3 {
-	display: inline-block;
-	margin: 30px 0;
-}
-
-.btn:hover .icon-header,
-.btn:active .icon-header {
-	display: none;
-}
-
-.btn:hover h4,
-.btn:active h4 {
-	display: none;
-}
-
-.btn-box img {
-	width: 120px;
-	height: auto;
-}
-
-
-
 /*-- main nav -- */
 
 .logo {
@@ -282,15 +253,13 @@ header {
 	margin-top: 15px;
 }
 
-.main-nav,
-.main-nav-solar {
+.main-nav{
 	float: right;
 	list-style: none;
 	margin-top: 40px;
 }
 
-.main-nav li,
-.main-nav-solar li {
+.main-nav li{
 	display: inline-block;
 	font-size: 85%;
 }
@@ -312,138 +281,10 @@ header {
 }
 
 
-/* -- Dropdown content -- */
-
-.sub-menu-1 {
-	position: absolute;
-	right: 5%;
-	background-color: rgba(237, 237, 237, 0.4);
-	width: 750px;
-	height: auto;
-	z-index: 1;
-	-webkit-box-shadow: 0 2px 2px #909090;
-	box-shadow: 0 2px 2px #909090;
-}
-
-
-.sub-menu-1 li {
-	display: none;
-	font-size: 94%;
-}
-
-
-.sub-menu-2 {
-	margin-top: 15px;
-	padding: 0 16px 5px 0;
-	border-spacing: 20px;
-	width: 100%;
-	line-height: 40px;
-}
-
-.sub-menu-2 li {
-	display: block;
-}
-
-
-.main-nav li:hover .sub-item {
-	display: inline-block;
-}
-
-
-/*--------------------*/
-
-/* --- mobile nav --- */
-
-.mobile .wallpaper {
-	display: block;
-	position: absolute;
-	content: "";
-	left: 0;
-	top: 0;
-	width: 50%;
-	height: 100%;
-	background-color: #d9d9d9;
-	z-index: 1;
-}
-
-.mobile .main-nav {
-	display: block;
-	position: absolute;
-	padding-top: 60px;
-	right: 0;
-	top: -7%;
-	float: left;
-	list-style: none;
-	background-color: #e8e8e8;
-	height: 100%;
-	width: 50%;
-	z-index: 999;
-}
-
-.mobile .main-nav li {
-	display: block;
-	font-size: 100%;
-	padding: 0 16px 5px 0;
-	border-spacing: 20px;
-	margin-top: 15px;
-}
-
-
-
-
-/* -- Dropdown content -- */
-
-.mobile .sub-menu-1 {
-	position: absolute;
-	top: 7%;
-	right: 85%;
-	width: 100%;
-	height: 0;
-	z-index: 2;
-	background-color: rgba(255, 255, 255, 0);
-	-webkit-box-shadow: 0 0 0 rgba(144, 144, 144, 0);
-	box-shadow: 0 0 0 rgba(144, 144, 144, 0);
-
-}
-
-
-.mobile .sub-menu-1 li {
-	display: none;
-}
-
-.mobile .sub-item li {
-	display: block;
-	text-align: right;
-}
-
-.mobile .sub-menu-2 a:hover,
-.mobile .sub-menu-2 a:visited {
-	border-bottom: 1px solid rgba(255, 255, 255, 0);
-	font-weight: 400;
-}
-
-
-.mobile .sub-menu-2 {
-	margin-top: 15px;
-	line-height: 20px;
-}
-
-.mobile .sub-menu-2 li {
-	display: block;
-}
-
-
-.mobile .main-nav li:hover .sub-item {
-	display: block;
-}
-
-.mobile .main-nav li:hover .sub-menu-1 {
-	height: 100%;
-}
 
 /*-------------------------------------------*/
 
-/* ENTREPPRISE */
+/* ENTREPRISE */
 
 /*-------------------------------------------*/
 
@@ -509,7 +350,7 @@ header {
 .renouvelable-box{
     height: 410px;
     border-radius:10%;
-    background-size: 100%;
+    background-size: 130%;
     box-shadow: 0 1px 1px #909090;
     transition: background-size 0.3s;
     background-position: center;
@@ -537,15 +378,15 @@ header {
 
 .box-france{
     background-image: linear-gradient(rgba(255, 255, 255, 0.82),rgba(255, 255, 255,0.98)), url(img/windmill-fr.jpg);
-    background-size: 210%;
+    background-size: 270%;
 }
 
 .renouvelable-box:hover{
-    background-size:120%;
+    background-size:110%;
 }
 
 .box-france:hover{
-    background-size:230%;
+    background-size:250%;
 }
 
 /*-------------------------------------------*/
@@ -682,151 +523,231 @@ footer p {
 }
 
 
+
+
+
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* PROJECTS PAGE */
+
 /*-------------------------------------------*/
 
 /*-------------------------------------------*/
 
-/* SOLAR PAGE */
 
 /*-------------------------------------------*/
 
+/* DEVELOPMENT */
+
 /*-------------------------------------------*/
 
-.section-even {
+/* progress bar */
+.progressbar {
+	counter-reset: step;
+    margin-left: 5%;
+}
+
+.progressbar li{
+	float: left;
+	width: 16%;
+	position: relative;
+	text-align:center;
+	cursor: pointer;
+}
+
+.progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border: 2px solid #666;
+	display: block;
+	text-align: center;
+	margin: 0 auto 10px auto;
+	border-radius: 50%;
+	background-color: #fff;
+	z-index: 2;
+}
+
+.progressbar li:after {
+	content: '';
+	position: absolute;
+	width: 95%;
+	height: 3px;
+	background-color: #666;
+	top: 15px;
+	left: -55%;
+	z-index:1;
+}
+
+.progressbar li:first-child:after {
+	content: none;
+}
+
+.progressbar li.active {
+	color: #a2c73b;
+	transition: color 0.5s ease;
+}
+
+.progressbar li.active h3 {
+	color: #a2c73b;
+	transition: color 0.5s ease;
+}
+
+.progressbar li.active:before {
+	border-color: #a2c73b;
+	transition: border-color 0.5s ease;
+}
+
+.progressbar li.active:after {
+	background-color: #a2c73b;
+	transition: background-color 0.5s ease;
+}
+
+.stages-text {
+	width:90%;
+	height: 250px;
+	margin: 0 auto;
+	padding : 30px 40px;
+	border: 1px solid #8dae32;
+}
+
+.stages-text p{
+	display: none;
+}
+
+.stages-text p:first-child{
+	display: block;
+}
+
+/*-------------------------------------------*/
+
+/* EOLIEN-SOLAIRE */
+
+/*-------------------------------------------*/
+
+.small-screen-list{
+    display: none;
+}
+
+.ligne-3-bulles p{
+    text-align: center;
+    padding: 24% 3%;
+    font-size: 130%;
+    border: 1px solid #a2c73b;
+    height:250px;
+    width:250px;
+    border-radius: 50%;
+    margin: 0 14.5%;
+    vertical-align: middle;
+    background-color: #ffffff;
+    transition: background-color 0.2s;
+}
+
+.ligne-3-bulles p a:hover{
+    border-bottom: 1px solid transparent;
+    color: #a2c73b;
+}
+
+.small-screen-list a:hover{
+    border-bottom: 1px solid transparent;
+    color: #a2c73b;
+}
+
+
+.ligne-3-bulles p:hover{
+    background-color: #f5f5f5;
+}
+
+.ligne-2-bulles p{
+    border: 1px solid #a2c73b;
+    height:250px;
+    width:250px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 24% 3%;
+    font-size: 130%;
+    background-color: #ffffff;
+    transition: background-color 0.2s;
+}
+
+
+.ligne-2-bulles p:hover{
+    background-color: #f5f5f5;
+}
+
+.ligne-bulle-2 .ligne-2-bulles:last-of-type p{
+    padding: 12% 2%;
+    margin-left: 10%;
+
+}
+
+.ligne-bulle-2 .ligne-2-bulles:first-child p{
+    margin-left: 42%;
+    padding: 16% 2%;
+}
+
+
+/*-------------------------------------------*/
+
+/* EOLIEN */
+
+/*-------------------------------------------*/
+.section-eolien{
+    background-color: #fcf7f7;
+}
+
+/*-------------------------------------------*/
+
+/* SOLAIRE */
+
+/*-------------------------------------------*/
+
+.section-solaire .ligne-3-bulles p{
+    background-color: #fcf7f7;
+}
+
+.section-solaire .ligne-3-bulles p:hover{
+    background-color: #f4eeee;
+}
+
+.section-solaire .ligne-2-bulles p{
+    background-color: #fcf7f7;
+}
+
+.section-solaire .ligne-2-bulles p:hover{
+    background-color: #f4eeee;
+}
+
+
+
+/*-------------------------------------------*/
+
+/* OWNERS */
+
+/*-------------------------------------------*/
+
+.section-owners {
 	background-color: #faf7f7;
 }
 
-.main-section-solar {
-	top: 35%;
+.btn-contact:link, .btn-contact:visited{
+	display: inline-block;
+	margin: 30px 35%;
+	border: 2px solid #a2c73b;
+	color: #a2c73b;
+    padding : 10px 30px;
+    border-radius: 200px;
+	transition: border 0.2s, background-color 0.2s, color 0.2s;
 }
 
-.main-section-solar h2 {
-	border: 0;
-	font-weight: 300;
-	color: #333;
-	font-size: 100%;
-}
-
-/*-------------------------------------------*/
-
-/* HEADER */
-
-/*-------------------------------------------*/
-
-.header-solar {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.9))), url(img/antonio-garcia-339626-unsplash.jpg);
-	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url(img/antonio-garcia-339626-unsplash.jpg);
-}
-
-/*-------------------------------------------*/
-
-/* SOLAR PROJECTS */
-
-/*-------------------------------------------*/
-
-.projects-showcase {
-	width: 100%;
-}
-
-.projects-showcase li {
-	display: block;
-	float: left;
-	width: 25%;
-	margin: 0;
-}
-
-.project-photo {
-	position: relative;
-	width: 100%;
-	margin: 0;
-	overflow: hidden;
-	background-color: #000;
-	padding: 0;
-}
-
-.project-photo img {
-	width: 100%;
-	height: auto;
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
-
-
-.overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	-webkit-transition: .5s ease;
-	transition: .5s ease;
-	background-color: #333;
-}
-
-.project-photo:hover .overlay {
-	opacity: 0.97;
-}
-
-.project-photo p {
+.btn-contact:active, .btn-contact:hover{
+	border: 2px solid #8dae32;
 	color: #fff;
-	font-size: 85%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	text-align: center;
+    background-color: #8dae32;
 }
 
-/*-------------------------------------------*/
-
-/* PPA */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/* LANDOWNERS */
-
-/*-------------------------------------------*/
-
-.section-landowners {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(226, 226, 226, 0.7))), url(img/cytonn-photography-604681-unsplash.jpg);
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(226, 226, 226, 0.7)), url(img/cytonn-photography-604681-unsplash.jpg);
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	color: #fff;
-}
-
-.info-text {
-	width: 74%;
-	margin: 0 auto;
-	word-spacing: 3px;
-}
-
-
-/*-------------------------------------------*/
-
-/* INVESTORS */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/* WIND PAGE */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-.header-wind {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.9))), url(img/luca-bravo-132630-unsplash.jpg);
-	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url(img/luca-bravo-132630-unsplash.jpg);
-}
