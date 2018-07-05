@@ -17,12 +17,20 @@
 		margin-top: 20px;
 	}
 	
+	
 
 	.main-nav li a:link,
     .main-nav li a:visited{
 		font-size: 87%;
     }
-
+	
+	.progressbar li:after {
+		left: -58%;
+	}
+	
+	.btn-contact:link, .btn-contact:visited {
+		margin: 30px 20%;
+	}
     
 }
 
@@ -33,9 +41,23 @@
     body { font-size: 16px;}
     section { padding: 30px 0;}
 	
+	.main-nav{
+		padding-top:40px;
+	}
+	
+	footer .col {
+		width: 50%;
+	}
+	
+	
 	.col {
 		width: 100%;
 		margin: 0 0 4% 0;
+	}
+	
+	.main-section {
+		width: 70%;
+		left: 15%;
 	}
     
     .mobile-nav-icon{
@@ -47,8 +69,25 @@
 	.main-nav{display: none;}
 
 
-    h1 {font-size: 180%;}
     h2 {font-size: 170%;}
+	
+	.stages-text {
+		height: auto;
+	}
+	
+	.stages-text h3 {
+		display: block;
+	}
+	
+	.stages-text p {
+		display: block;
+	}
+	
+	.progressbar{
+		display: none;
+	}
+	
+	
 	
 
 
@@ -58,8 +97,34 @@
 /*Small phones: from 0 to 48px*/
 @media only screen and (max-width : 480px){
     section {padding: 25px 0;}
-    .contact-form {width: 100%;}
-
+    .form-box {width: 95%;}
+	
+	.main-section{
+		top:40%;
+	}
+	
+	.main-nav{
+		padding-top:20px;
+	}
+	
+	.btn-contact:link, .btn-contact:visited {
+		margin: 30px 10%;
+	}
+	
+	h1:after {
+		width: 100px;
+	}
+	
+	h1{
+		font-family: 'Lato';
+		font-weight: 300;
+		font-size:190%;
+	}
+	
+	.info-text {
+		width:90%;
+	}
+	
 
     
 }

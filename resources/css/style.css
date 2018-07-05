@@ -457,6 +457,7 @@ textarea {
 
 footer {
 	background-color: rgba(208, 208, 208, 0.9);
+	padding-top:10px;
 }
 
 footer li {
@@ -571,11 +572,15 @@ footer p {
 	border: 1px solid #8dae32;
 }
 
-.stages-text p{
+.stages-text h3 {
+	display:none;
+}
+
+.stages-text p {
 	display: none;
 }
 
-.stages-text p:first-child{
+.stages-text p:first-of-type{
 	display: block;
 }
 
@@ -682,6 +687,7 @@ footer p {
 }
 
 .btn-contact:link, .btn-contact:visited{
+	text-align: center;
 	display: inline-block;
 	margin: 30px 35%;
 	border: 2px solid #a2c73b;

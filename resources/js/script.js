@@ -22,14 +22,8 @@ $(document).ready(function() {
 
 	$('.js--nav-icon').click(function(){
 		var mobile =$('.js--mobile');
-		var navSol =$('.js--main-nav-solar');
-		navSol.fadeToggle(200);
 		 /*ouvre et ferme une boite en 200ms*/
-		if (mobile.hasClass('mobile')){
-			mobile.removeClass('mobile');
-		} else {
-			mobile.addClass('mobile');
-		}
+		mobile.fadeToggle(200);
 		
 	});
 
