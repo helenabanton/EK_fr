@@ -40,15 +40,14 @@
 @media only screen and (max-width : 767px){
     body { font-size: 16px;}
     section { padding: 30px 0;}
+	h2 {font-size: 170%;}
 	
 	.main-nav{
 		padding-top:40px;
+		display:none;
 	}
 	
-	footer .col {
-		width: 50%;
-	}
-	
+	footer .col {width: 50%;}
 	
 	.col {
 		width: 100%;
@@ -65,28 +64,17 @@
 		position: absolute;
 		right: 2%;
     }
-	
-	.main-nav{display: none;}
 
+	.stages-text {height: auto;}
+	.stages-text h3 {display: block;}
+	.stages-text p {display: block;}
+	.progressbar{display: none;}
+	
 
-    h2 {font-size: 170%;}
 	
-	.stages-text {
-		height: auto;
+	.bulle{
+		
 	}
-	
-	.stages-text h3 {
-		display: block;
-	}
-	
-	.stages-text p {
-		display: block;
-	}
-	
-	.progressbar{
-		display: none;
-	}
-	
 	
 	
 
