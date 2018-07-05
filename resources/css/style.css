@@ -394,7 +394,7 @@ header {
 	transition: -webkit-transform 0.2s;
 	transition: transform 0.2s;
 	transition: transform 0.2s, -webkit-transform 0.2s;
-	height: 350px;
+	height: 450px;
 }
 
 .field-box:hover {
