@@ -1,6 +1,8 @@
 /*Big tablets, laptop : from 1024px to 1200px (smaller than the 1140px row) */
 @media only screen and (max-width : 1200px){
 	.row { padding: 0 2%;}
+
+
 	
 }
 
@@ -16,6 +18,7 @@
 		width: auto;
 		margin-top: 20px;
 	}
+
 	
 
 	.main-nav li a:link,
@@ -37,9 +40,7 @@
 		right: 2%;
 		width: 75%;
 	}
-	
-    
-    
+
 }
 
 
@@ -60,7 +61,7 @@
 		right: 2%;
     }
 	
-	
+
     .main-nav-solar { 
         float: left;
         margin-top : 35px;
@@ -85,8 +86,21 @@
 		margin-left: 80px;
 		margin-bottom: 10px;
 	}
- 
+    .ligne-3-bulles{
+        display: none;
+    }
     
+    .ligne-2-bulles{
+        display: none;
+
+    }
+
+    .small-screen-list{
+        display: block;
+        font-size: 130%;
+        margin-left: 15%;
+        margin-top: -20px;
+    }
     
     h1 {font-size: 180%;}
     h2 {font-size: 170%;}
