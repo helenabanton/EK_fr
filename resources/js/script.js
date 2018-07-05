@@ -32,6 +32,11 @@ $(document).ready(function() {
 		}
 		
 	});
+	
+	document.querySelector('.js--btn-contact').addEventListener('click',function(){
+		window.open('index.html');
+		$('html,body').animate({scrollTop: $('.js--section-form').offset().top}, 1000);
+	});
 
 /*Progressbar */
 
