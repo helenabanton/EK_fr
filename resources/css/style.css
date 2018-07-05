@@ -613,8 +613,6 @@ footer p {
 
 /*-------------------------------------------*/
 
-
-
 .ligne-3-bulles p{
     text-align: center;
     padding: 28% 3%;
@@ -634,6 +632,11 @@ footer p {
     color: #a2c73b;
 }
 
+
+.ligne-3-bulles p:hover{
+    background-color: #f5f5f5;
+}
+
 .ligne-2-bulles p{
     border: 1px solid #a2c73b;
     height:280px;
@@ -646,29 +649,6 @@ footer p {
     transition: background-color 0.2s;
 }
 
-
-/*-------------------------------------------*/
-
-/* OWNERS */
-
-/*-------------------------------------------*/
-
-.section-owners {
-	background-color: #faf7f7;
-}
-
-.btn-contact:link, .btn-contact:visited{
-	display: inline-block;
-	margin: 30px 35%;
-	border: 2px solid #a2c73b;
-	color: #a2c73b;
-    padding : 10px 30px;
-    border-radius: 200px;
-	transition: border 0.2s, background-color 0.2s, color 0.2s;
-
-.ligne-3-bulles p:hover{
-    background-color: #f5f5f5;
-}
 
 .ligne-2-bulles p:hover{
     background-color: #f5f5f5;
@@ -684,11 +664,12 @@ footer p {
     margin-left: 45%;
 }
 
-.btn-contact:hover, .btn-contact:active{
-	border: 2px solid #8dae32;
-	background-color: #8dae32;
-	color: #fff;
 
+/*-------------------------------------------*/
+
+/* EOLIEN */
+
+/*-------------------------------------------*/
 .section-eolien{
     background-color: #fcf7f7;
 }
@@ -714,3 +695,32 @@ footer p {
 .section-solaire .ligne-2-bulles p:hover{
     background-color: #f4eeee;
 }
+
+
+
+/*-------------------------------------------*/
+
+/* OWNERS */
+
+/*-------------------------------------------*/
+
+.section-owners {
+	background-color: #faf7f7;
+}
+
+.btn-contact:link, .btn-contact:visited{
+	display: inline-block;
+	margin: 30px 35%;
+	border: 2px solid #a2c73b;
+	color: #a2c73b;
+    padding : 10px 30px;
+    border-radius: 200px;
+	transition: border 0.2s, background-color 0.2s, color 0.2s;
+}
+
+.btn-contact:active, .btn-contact:hover{
+	border: 2px solid #8dae32;
+	color: #fff;
+    background-color: #8dae32;
+}
+
