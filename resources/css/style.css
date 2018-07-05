@@ -175,6 +175,19 @@ ul li {
 }
 
 
+/*--- php ---*/
+
+.error {
+	padding: 10px;
+	background-color: rgba(172, 0, 0, 0.25);
+}
+
+.success {
+	padding: 10px;
+	background-color: rgba(162, 199, 59, 0.25);
+}
+
+
 
 /*-------------------------------------------*/
 

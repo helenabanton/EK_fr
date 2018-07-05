@@ -8,7 +8,7 @@
 
     // Check the data.
     if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        header("Location: http://www.webdesigncourse.co/omnifood/index.php?success=-1#form");
+        header("Location: http://www.energiekontor.fr/index.php?success=-1#form");
         exit;
     }
 
@@ -16,7 +16,7 @@
     $recipient = "<info@energiekontor.com>";
 
     // Set the email subject.
-    $subject = "New contact from $name";
+    $subject = "New contact from $name from the FR website";
 
     // Build the email content.
     $email_content = "Name: $name\n";
@@ -30,6 +30,6 @@
     mail($recipient, $subject, $email_content, $email_headers);
     
     // Redirect to the index.html page with success code
-    header("Location: http://www.webdesigncourse.co/omnifood/index.php?success=1#form");
+    header("Location: http://www.energiekontor.fr/index.php?success=1#form");
 
 ?>
