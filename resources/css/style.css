@@ -187,6 +187,12 @@ ul li {
 	background-color: rgba(162, 199, 59, 0.25);
 }
 
+.success {
+	padding: 10px;
+	background-color: rgba(162, 199, 59, 0.25);
+}
+
+
 
 
 /*-------------------------------------------*/
@@ -549,6 +555,7 @@ footer p {
 	transition: color 0.5s ease;
 }
 
+
 .progressbar li.active h3 {
 	color: #a2c73b;
 	transition: color 0.5s ease;
@@ -558,6 +565,18 @@ footer p {
 	border-color: #a2c73b;
 	transition: border-color 0.5s ease;
 }
+
+
+.progressbar li.active h3 {
+	color: #a2c73b;
+	transition: color 0.5s ease;
+}
+
+.progressbar li.active:before {
+	border-color: #a2c73b;
+	transition: border-color 0.5s ease;
+}
+
 
 .progressbar li.active:after {
 	background-color: #a2c73b;
@@ -572,6 +591,7 @@ footer p {
 	border: 1px solid #8dae32;
 }
 
+
 .stages-text h3 {
 	display:none;
 }
@@ -580,7 +600,13 @@ footer p {
 	display: none;
 }
 
-.stages-text p:first-of-type{
+
+
+.stages-text p{
+	display: none;
+}
+
+.stages-text p:first-child{
 	display: block;
 }
 
@@ -589,6 +615,7 @@ footer p {
 /* EOLIEN-SOLAIRE */
 
 /*-------------------------------------------*/
+
 
 .ligne-3-bulles p{
     text-align: center;
@@ -643,6 +670,69 @@ footer p {
 }
 
 
+.small-screen-list{
+    display: none;
+}
+
+.ligne-3-bulles p{
+    text-align: center;
+    padding: 24% 3%;
+    font-size: 130%;
+    border: 1px solid #a2c73b;
+    height:250px;
+    width:250px;
+    border-radius: 50%;
+    margin: 0 14.5%;
+    vertical-align: middle;
+    background-color: #ffffff;
+    transition: background-color 0.2s;
+}
+
+.ligne-3-bulles p a:hover{
+    border-bottom: 1px solid transparent;
+    color: #a2c73b;
+}
+
+.small-screen-list a:hover{
+    border-bottom: 1px solid transparent;
+    color: #a2c73b;
+}
+
+
+.ligne-3-bulles p:hover{
+    background-color: #f5f5f5;
+}
+
+.ligne-2-bulles p{
+    border: 1px solid #a2c73b;
+    height:250px;
+    width:250px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 24% 3%;
+    font-size: 130%;
+    background-color: #ffffff;
+    transition: background-color 0.2s;
+}
+
+
+.ligne-2-bulles p:hover{
+    background-color: #f5f5f5;
+}
+
+.ligne-bulle-2 .ligne-2-bulles:last-of-type p{
+    padding: 12% 2%;
+    margin-left: 10%;
+
+}
+
+.ligne-bulle-2 .ligne-2-bulles:first-child p{
+    margin-left: 42%;
+    padding: 16% 2%;
+}
+
+
+
 /*-------------------------------------------*/
 
 /* EOLIEN */
@@ -686,8 +776,21 @@ footer p {
 	background-color: #faf7f7;
 }
 
+
 .btn-contact:link, .btn-contact:visited{
 	text-align: center;
+	display: inline-block;
+	margin: 30px 35%;
+	border: 2px solid #a2c73b;
+	color: #a2c73b;
+    padding : 10px 30px;
+    border-radius: 200px;
+	transition: border 0.2s, background-color 0.2s, color 0.2s;
+}
+
+
+
+.btn-contact:link, .btn-contact:visited{
 	display: inline-block;
 	margin: 30px 35%;
 	border: 2px solid #a2c73b;
