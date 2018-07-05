@@ -44,15 +44,14 @@
 @media only screen and (max-width : 767px){
     body { font-size: 16px;}
     section { padding: 30px 0;}
+	h2 {font-size: 170%;}
 	
 	.main-nav{
 		padding-top:40px;
+		display:none;
 	}
 	
-	footer .col {
-		width: 50%;
-	}
-	
+	footer .col {width: 50%;}
 	
 	.col {
 		width: 100%;
@@ -69,6 +68,13 @@
 		position: absolute;
 		right: 2%;
     }
+<<<<<<< HEAD
+
+	.stages-text {height: auto;}
+	.stages-text h3 {display: block;}
+	.stages-text p {display: block;}
+	.progressbar{display: none;}
+=======
 	
 
 
@@ -94,20 +100,17 @@
 		height: auto;
 	}
 
+>>>>>>> 685220abf9b589fe52b0d7c7b207b2a66c814d68
 	
-	.stages-text h3 {
-		display: block;
-	}
+
 	
-	.stages-text p {
-		display: block;
-	}
-	
-	.progressbar{
-		display: none;
+	.bulle{
+		
 	}
 	
 	
+<<<<<<< HEAD
+=======
 
     .ligne-3-bulles{
         display: none;
@@ -132,6 +135,7 @@
     h2 {font-size: 170%;}
 
 	
+>>>>>>> 685220abf9b589fe52b0d7c7b207b2a66c814d68
 
 }
 
