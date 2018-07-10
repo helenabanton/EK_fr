@@ -212,31 +212,9 @@ ul li {
 /*-------------------------------------------*/
 
 header {
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	height: 100vh;
+	height: 100px;
+	background-color: #fff;
 }
-
-.form-header {
-	height: 85px;
-}
-
-.main-header {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.9))), url(img/renewable-1989416_1920.jpg);
-	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url(img/renewable-1989416_1920.jpg);
-}
-
-
-.main-section {
-	position: absolute;
-	width: 50%;
-	text-align: center;
-	display: inline-block;
-	top: 35%;
-	left: 25%;
-}
-
 
 
 /*-- main nav -- */
@@ -252,12 +230,44 @@ header {
 .main-nav{
 	float: right;
 	list-style: none;
-	margin-top: 40px;
 }
 
 .main-nav li{
 	display: inline-block;
 	font-size: 85%;
+	padding: 40px 20px;
+}
+
+.main-nav li:hover {
+	background-color: rgba(162, 199, 59);
+	color: #fff;
+}
+
+.main-nav a:active, .main-nav a:hover{
+	border-bottom: 2px solid transparent;
+}
+
+.main-nav li ul{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: -20px;
+	background-color: rgba(162, 199, 59);
+	z-index: 900;
+}
+
+.main-nav li ul li{
+	display: none;
+	padding: 20px;
+	font-size: 100%;
+	margin: 0;
+}
+
+.main-nav li ul li:hover{
+	background-color: #fff;
+}
+
+.main-nav li:hover ul li{
+	display:block;
 }
 
 
@@ -274,6 +284,31 @@ header {
 .mobile-nav-icon:hover,
 .mobile-nav-icon:active {
 	border: 0;
+}
+
+/*-------------------------------------------*/
+
+/* ACCUEIL */
+
+/*-------------------------------------------*/
+
+.main-section {
+	position: relative;
+	height: 380px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.9))), url(img/renewable-1989416_1920.jpg);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url(img/renewable-1989416_1920.jpg);
+	z-index: 1;
+}
+
+.main-title {
+	position: relative;
+	width: 80%;
+	display: inline-block;
+	margin: 50px 10%;
+	text-align: center;
 }
 
 
