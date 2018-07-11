@@ -688,7 +688,7 @@ footer p {
 	display: none;
 }
 
-.stages-text p:first-child{
+.stages-text p:first-of-type{
 	display: block;
 }
 
