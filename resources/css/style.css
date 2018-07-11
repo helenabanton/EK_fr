@@ -888,6 +888,23 @@ footer p {
 
 /*-------------------------------------------*/
 
+/*-------------------------------------------*/
+
+/* SECTION BANDEAU */
+
+/*-------------------------------------------*/
+
 .bandeau-eolienne{
-    background-image: url(img/Wittgeeste.JPG);
+    position: relative;
+	height: 900px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+    height: 650px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(img/Wittgeeste.jpg);
+}
+
+.eolien-title{
+    margin-left: 20%;
+    margin-top: 10%;
 }
