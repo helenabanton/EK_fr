@@ -189,6 +189,16 @@ ul li {
     transform: scale(1.1);
 }
 
+/*--- bandeau ---*/
+
+.bandeau{
+    position: relative;
+	height: 900px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+    height: 650px;
+}
 
 /*--- php ---*/
 
@@ -895,12 +905,6 @@ footer p {
 /*-------------------------------------------*/
 
 .bandeau-eolienne{
-    position: relative;
-	height: 900px;
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-    height: 650px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(img/Wittgeeste.jpg);
 }
 
