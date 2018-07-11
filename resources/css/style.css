@@ -231,6 +231,15 @@ header {
 	background-color: #fff;
 }
 
+.flags {
+    float: right;
+    display: block;
+}
+
+.flags li {
+    display: inline-block;
+    padding: 3px;
+}
 
 /*-- main nav -- */
 
