@@ -627,7 +627,7 @@ footer p {
 	text-align: center;
 	margin: 0 auto 10px auto;
 	border-radius: 50%;
-	background-color: #fff;
+	background-color: #f6f6f6;
 	z-index: 2;
 }
 
@@ -659,7 +659,8 @@ footer p {
 
 .progressbar li.active:before {
 	border-color: #a2c73b;
-	transition: border-color 0.5s ease;
+    background-color: #fff;
+	transition: border-color 0.5s ease, background-color 0.5s ease;
 }
 
 
@@ -684,6 +685,7 @@ footer p {
 	height: 250px;
 	margin: 0 auto;
 	padding : 30px 40px;
+    background-color: #fff;
 	border: 1px solid #8dae32;
 }
 

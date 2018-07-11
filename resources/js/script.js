@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 //* Sticky nav *//
 	
-	$('.js--s-sticky').waypoint(function(direction){
+	$('.js--sticky').waypoint(function(direction){
 		if (direction=="down"){
 			$('nav').addClass('sticky');
 		}else {
