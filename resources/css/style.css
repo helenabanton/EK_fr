@@ -71,7 +71,7 @@ h1 {
 
 h1:after {
 	display: block;
-	height: 2px;
+	height: 3px;
 	background-color: #a2c73b;
 	content: "";
 	width: 300px;
@@ -123,6 +123,7 @@ p {
 
 .info-text {
 	width: 80%;
+	margin: 0 10%;
 }
 
 
@@ -587,12 +588,14 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-entreprise {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.5)),url(img/Garzau-Garzin_DJI_0428.jpg); 
+	background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.4)),url(img/Garzau-Garzin_DJI_0428.jpg); 
 }
 
+/*
 .bandeau-entreprise h1 {
 	color: #fff;
 }
+*/
 
 
 .bandeau-entreprise p {
@@ -618,6 +621,52 @@ textarea {
 	font-weight: 400;
 	display: inline-block;
 }
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* VALEURS */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+.bandeau-valeurs {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.72)),url(img/guillermo-sanchez-630049-unsplash.jpg); 
+}
+
+.row-family .col {
+	text-align: center;
+}
+.row-family p {
+	text-align: center;
+	width: 95%;
+	margin-left: 5%;
+}
+.row-family b{
+	color: #a2c73b;
+}
+
+.section-family img {
+	width: 40%;
+	margin: 0 30%;
+}
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* PRESENCE DANS LE MONDE */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+.bandeau-world {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3)),url(img/ben-white-148783-unsplash.jpg); 
+}
+
 
 /*-------------------------------------------*/
 
