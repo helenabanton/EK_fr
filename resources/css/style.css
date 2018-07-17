@@ -173,21 +173,20 @@ ul li {
 }
 
 .icon-arrow {
+	position: absolute;
+	left: 48%;
+	bottom: 5%;
 	display: block;
-	margin: 0 45% 0 46%;
 	color: #a2c73b;
 	font-size: 300%;
-	margin-bottom: 30px;
     transition: color 0.2s;
-    text-align: center;
-    vertical-align: middle;
-    padding: 0 15px;
 }
 
 .icon-arrow:hover{
     color: #ffffff;
     transform: scale(1.1);
 }
+
 
 /*--- sections ---*/
 
@@ -389,7 +388,7 @@ nav {
 
 .main-section {
 	position: relative;
-	height: 900px;
+	height: 700px;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -402,7 +401,7 @@ nav {
 	position: relative;
 	width: 80%;
 	display: inline-block;
-	margin: 250px 10%;
+	margin: 180px 10% 0 10%;
 	text-align: center;
 }
 
@@ -413,6 +412,13 @@ nav {
 /* ENTREPRISE */
 
 /*-------------------------------------------*/
+
+.presentation{
+	width: 70%;
+	margin: 40px 15%;
+	padding: 40px;
+	border: 2px solid #8dae32;	
+}
 
 .bulle{
 	display: inline-block;
@@ -525,10 +531,6 @@ nav {
 
 /*-------------------------------------------*/
 
-.section-form {
-	background-color: #faf7f7;
-}
-
 .form-box {
 	width: 70%;
 	margin: 0 auto;
@@ -578,9 +580,22 @@ textarea {
 
 /*-------------------------------------------*/
 
+.bandeau-entreprise {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.5)),url(img/Garzau-Garzin_DJI_0428.jpg); 
+}
+
+.bandeau-entreprise h1 {
+	color: #fff;
+}
 
 
-
+.bandeau-entreprise p {
+	font-size: 80%;
+	position: absolute;
+	right: 10px;
+	top: 90%;
+	color: #333;
+}
 
 
 

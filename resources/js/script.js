@@ -12,8 +12,14 @@ $(document).ready(function() {
 		offset:'60px;'
 	});
 	
+//* arrow *//
 	
-
+	$('.js--arrow').click(function(){
+		$('html,body').animate({scrollTop: $('.js--sticky').offset().top}, 1000);
+	});
+	
+	
+//*  progress bar  *//
 	$('.js--step-1').click(function(){
 		if($('.js--step-2').hasClass('active')){
 			$('.js--step-2').removeClass('active');
