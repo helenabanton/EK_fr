@@ -658,6 +658,21 @@ textarea {
 
 /*-------------------------------------------*/
 
+/* MISSIONS */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+.diagramme-mission img{
+    width: 60%;
+    margin-left: 20%;
+}
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
 /* PRESENCE DANS LE MONDE */
 
 /*-------------------------------------------*/
@@ -938,4 +953,60 @@ textarea {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.liste-promesse h3{
+    width:60%;
+    margin:0 20% 2% 20%;
+}
+
+.liste-promesse img{
+    height: 80px;
+    width: auto;
+    display:inline-block;
+}
+
+
+.liste-promesse p{
+    display: inline-block;
+    font-size: 115%;
+    padding-bottom: 1.5%;
+    vertical-align:bottom;
+}
+
+.liste-promesse-point{
+    padding-bottom: 3%;
+    margin-left: 25%;
+}
 
