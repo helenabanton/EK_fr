@@ -690,6 +690,18 @@ textarea {
     margin-left: 25%;
 }
 
+.diagramme-mission img{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.bandeau-mission{
+    background-image: linear-gradient(rgba(219, 219, 219, 0.46),rgba(219, 219, 219, 0.46)),url(img/mission_bandeau.jpg);
+}
+
+.bandeau-mission h1{
+    color: #fff;
+}
 /*-------------------------------------------*/
 
 /*-------------------------------------------*/
@@ -702,6 +714,7 @@ textarea {
 
 .bandeau-prix {
 	background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3)),url(img/prix_bandeau.jpg);
+    background-position: center;
 }
 
 .img-awards {
@@ -710,20 +723,6 @@ textarea {
 	margin: 0 40% 25px 40%;
 }
 
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-/* MISSIONS */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-.diagramme-mission img{
-    width: 60%;
-    margin-left: 20%;
-}
 
 /*-------------------------------------------*/
 
