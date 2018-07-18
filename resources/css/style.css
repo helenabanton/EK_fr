@@ -156,6 +156,16 @@ ul li {
 	font-weight: 400;
 }
 
+.col h3 {
+	text-align: center;
+}
+
+.col p {
+	text-align: center;
+	width: 95%;
+	margin-left: 5%;
+}
+
 /*-- icons --*/
 .icon-small{
     display:inline-block;
@@ -593,12 +603,6 @@ textarea {
 	background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.4)),url(img/Garzau-Garzin_DJI_0428.jpg); 
 }
 
-/*
-.bandeau-entreprise h1 {
-	color: #fff;
-}
-*/
-
 
 .bandeau-entreprise p {
 	font-size: 80%;
@@ -638,14 +642,6 @@ textarea {
 	background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.72)),url(img/guillermo-sanchez-630049-unsplash.jpg); 
 }
 
-.row-family .col {
-	text-align: center;
-}
-.row-family p {
-	text-align: center;
-	width: 95%;
-	margin-left: 5%;
-}
 .row-family b{
 	color: #a2c73b;
 }
@@ -653,6 +649,14 @@ textarea {
 .section-family img {
 	width: 40%;
 	margin: 0 30%;
+}
+
+.section-valeurs img {
+	width: 30%;
+	height: 60%;
+	margin: 0 35% 30px 35%;
+	
+	
 }
 
 /*-------------------------------------------*/
