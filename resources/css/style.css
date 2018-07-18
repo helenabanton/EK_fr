@@ -308,7 +308,7 @@ nav {
 }
 
 .main-nav li:hover {
-	background-color: rgba(162, 199, 59);
+	background:url(img/Camouflage_GIS.png);
 }
 
 .main-nav a:active, .main-nav a:hover{
@@ -319,7 +319,7 @@ nav {
 	position: absolute;
 	margin-top: 40px;
 	margin-left: -20px;
-	background-color: rgba(162, 199, 59);
+	background-color: url(img/Camouflage_GIS.png);
 	z-index: 900;
 }
 
@@ -331,6 +331,7 @@ nav {
 }
 
 .main-nav li ul li:hover{
+	background: none;
 	background-color: #fff;
 }
 
