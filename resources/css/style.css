@@ -1,4 +1,4 @@
-/* couleur : #a2c73b*/
+/* couleur : */
 
 /* dark : #8dae32 */
 
@@ -865,10 +865,54 @@ textarea {
 }
 
 
+/*-------------------------------------------*/
 
+/*-------------------------------------------*/
 
+/* ENERGIE SOLAIRE PAGE */
 
+/*-------------------------------------------*/
 
+/*-------------------------------------------*/
+
+.bandeau-solaire{
+     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(img/solaire-bandeau.jpg);
+}
+
+.bandeau-solaire p {
+	font-size: 80%;
+	position: absolute;
+	right: 10px;
+	top: 90%;
+	color: #333;
+}
+
+.description-solaire{
+    display: inline-block;
+    width: 68%;
+}
+
+.description-solaire p{
+    color: #a2c73b;
+}
+
+.energie-solaire ul{
+    margin-bottom: 3%;
+}
+
+.energie-solaire ul li{
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+}
+
+.image-data-solaire{
+    display: inline-block;
+}
+
+.image-data-solaire img{
+    height: 730px;
+    width: auto;
+}
 /*-------------------------------------------*/
 
 /*-------------------------------------------*/
@@ -884,6 +928,15 @@ textarea {
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(img/eolienne_bandeau.jpg);
 }
 
+.bandeau-eolienne p {
+	font-size: 80%;
+	position: absolute;
+	right: 10px;
+	top: 90%;
+	color: #333;
+}
+
+
 .eolien-title{
     margin-left: 20%;
     margin-top: 10%;
@@ -892,6 +945,10 @@ textarea {
 .description-eolien{
     display: inline-block;
     width: 70%;
+}
+
+.description-eolien p{
+    color: #a2c73b;
 }
 
 .energie-eolienne ul{
