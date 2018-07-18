@@ -360,6 +360,7 @@ nav {
 }
 
 .sticky .main-nav li:hover {
+	background:none;
 	background-color: #fff;
 }
 
