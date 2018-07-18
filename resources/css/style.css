@@ -889,37 +889,28 @@ textarea {
     margin-top: 10%;
 }
 
-.image-eolien{
-    height: 50px;
+.description-eolien{
+    display: inline-block;
+    width: 70%;
+}
+
+.energie-eolienne ul{
+    margin-bottom: 3%;
+}
+
+.energie-eolienne ul li{
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+}
+
+.image-data-wind{
+    display: inline-block;
+}
+
+.image-data-wind img{
+    height: 700px;
     width: auto;
 }
-
-.key-information li{
-    padding: 30px 0;
-}
-
-.key-information li img{
-    padding: 0 190px;
-}
-
-.key-information li p{
-    vertical-align: middle;
-    text-align: center;
-}
-
-.key-information-1 li:first-of-type{
-    padding-top: 0;
-}
-
-.key-information-2 li:first-of-type{
-    margin-top: 100px;
-    padding-top: 0;
-}
-
-.pig-image{
-    margin-top: 30px;
-}
-
 
 /*-------------------------------------------*/
 
