@@ -319,7 +319,7 @@ nav {
 	position: absolute;
 	margin-top: 40px;
 	margin-left: -20px;
-	background-color: url(img/Camouflage_GIS.png);
+	background-color: rgba(162, 199, 59);
 	z-index: 900;
 }
 
