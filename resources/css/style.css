@@ -654,9 +654,40 @@ textarea {
 .section-valeurs img {
 	width: 30%;
 	height: 60%;
-	margin: 0 35% 30px 35%;
-	
-	
+	margin: 0 35% 30px 35%;	
+}
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* MISSION */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+.liste-promesse h3{
+    width:60%;
+    margin:0 20% 2% 20%;
+}
+
+.liste-promesse img{
+    height: 80px;
+    width: auto;
+    display:inline-block;
+}
+
+
+.liste-promesse p{
+    display: inline-block;
+    font-size: 115%;
+    padding-bottom: 1.5%;
+    vertical-align:bottom;
+}
+
+.liste-promesse-point{
+    padding-bottom: 3%;
+    margin-left: 25%;
 }
 
 /*-------------------------------------------*/
@@ -1011,27 +1042,5 @@ textarea {
 
 
 
-.liste-promesse h3{
-    width:60%;
-    margin:0 20% 2% 20%;
-}
 
-.liste-promesse img{
-    height: 80px;
-    width: auto;
-    display:inline-block;
-}
-
-
-.liste-promesse p{
-    display: inline-block;
-    font-size: 115%;
-    padding-bottom: 1.5%;
-    vertical-align:bottom;
-}
-
-.liste-promesse-point{
-    padding-bottom: 3%;
-    margin-left: 25%;
-}
 
