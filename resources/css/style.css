@@ -670,7 +670,13 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-prix {
-	
+	background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3)),url(img/prix_bandeau.jpg);
+}
+
+.img-awards {
+	width: 20%;
+	height: auto;
+	margin: 0 40% 25px 40%;
 }
 
 /*-------------------------------------------*/
