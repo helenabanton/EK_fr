@@ -412,7 +412,7 @@ nav {
 	background-position: center;
 	background-attachment: fixed;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.9))), url(img/renewable-1989416_1920.jpg);
-	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url(img/renewable-1989416_1920.jpg);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url(img/main-section.jpg);
 	z-index: 1;
 }
 
@@ -600,7 +600,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-entreprise {
-	background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.4)),url(img/Garzau-Garzin_DJI_0428.jpg); 
+	background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.4)),url(img/entreprise_bandeau.jpg); 
 }
 
 
@@ -639,7 +639,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-valeurs {
-	background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.72)),url(img/guillermo-sanchez-630049-unsplash.jpg); 
+	background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.72)),url(img/valeurs_bandeau.jpg); 
 }
 
 .row-family b{
@@ -663,6 +663,20 @@ textarea {
 
 /*-------------------------------------------*/
 
+/* PRIX ET DISTINCTIONS */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+.bandeau-prix {
+	
+}
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
 /* PRESENCE DANS LE MONDE */
 
 /*-------------------------------------------*/
@@ -670,7 +684,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-world {
-	background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3)),url(img/ben-white-148783-unsplash.jpg); 
+	background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3)),url(img/world_bandeau.jpg); 
 }
 
 
@@ -685,7 +699,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-projet {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)),url(img/johannes-plenio-262511-unsplash.jpg); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)),url(img/projet_bandeau.jpg); 
 }
 
 .bandeau-projet h1 {
@@ -816,7 +830,7 @@ textarea {
 
 
 .bandeau-eolienne{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(img/Wittgeeste.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(img/eolienne_bandeau.jpg);
 }
 
 .eolien-title{
@@ -867,7 +881,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-cdv {
-	background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.8)),url(img/qinghill-39069-unsplash.jpg);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.8)),url(img/cdv_bandeau.jpg);
 }
 
 .section-cdv img{
@@ -887,7 +901,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-ppa {
-	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url(img/rawpixel-567016-unsplash.jpg);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url(img/ppa_bandeau.jpg);
 }
 
 /*-------------------------------------------*/
@@ -901,7 +915,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-proprio {
-	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url(img/warren-wong-320130-unsplash.jpg);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url(img/proprio_bandeau.jpg);
 }
 
 
