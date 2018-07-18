@@ -998,9 +998,25 @@ textarea {
     background-color: #8dae32;
 }
 
+/*-------------------------------------------*/
 
+/*-------------------------------------------*/
 
+/* OBJECTIFS FRANCE ET OCCITANIE */
 
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+.bandeau-fr {
+	background-image: linear-gradient(rgba(219, 219, 219, 0.46),rgba(219, 219, 219, 0.46)),url(img/france_bandeau.jpeg);
+}
+
+.section-objectif img {
+	width: 60%;
+	height: auto;
+	margin: 40px 20%;
+}
 
 
 
