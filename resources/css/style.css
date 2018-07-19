@@ -1111,6 +1111,7 @@ textarea {
     background-image: linear-gradient(rgba(255, 255, 255, 0.36),rgba(255, 255, 255, 0.36)),url(img/reference-projet_bandeau.jpg);
 }
 
+
 .bandeau-reference-projet p {
 	font-size: 80%;
 	position: absolute;
@@ -1122,6 +1123,68 @@ textarea {
 .tableau-projets table{
     display: inline-block;
 }
+
+/*-- Solar projects --*/
+
+
+.projects-showcase {
+	width: 100%;
+}
+
+.projects-showcase li {
+	display: block;
+	float: left;
+	width: 25%;
+	margin: 0;
+}
+
+.project-photo {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	background-color: #000;
+	padding: 0;
+}
+
+.project-photo img {
+	width: 100%;
+	height: auto;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	-webkit-transition: .5s ease;
+	transition: .5s ease;
+	background-color: #333;
+}
+
+.project-photo:hover .overlay {
+	opacity: 0.97;
+}
+
+.project-photo p {
+	color: #fff;
+	font-size: 85%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
 
 
 /*-------------------------------------------*/
