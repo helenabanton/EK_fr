@@ -1,4 +1,4 @@
-/* couleur : */
+/* couleur : #a2c73b */
 
 /* dark : #8dae32 */
 
@@ -218,6 +218,18 @@ ul li {
 	width: 80%;
 	height: auto;
 	margin: 30px 10%;
+}
+
+/*--- tableau ---*/
+
+td{
+    border: 1px solid #a2c73b;
+}
+
+table{
+    border: none;
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+
 }
 
 /*--- php ---*/
@@ -1084,15 +1096,32 @@ textarea {
 
 
 
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* REFERENCES PROJET */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
 
 
+.bandeau-reference-projet{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.36),rgba(255, 255, 255, 0.36)),url(img/reference-projet_bandeau.jpg);
+}
 
+.bandeau-reference-projet p {
+	font-size: 80%;
+	position: absolute;
+	right: 10px;
+	top: 90%;
+	color: #333;
+}
 
-
-
-
-
-
+.tableau-projets table{
+    display: inline-block;
+}
 
 
 
