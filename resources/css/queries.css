@@ -2,17 +2,11 @@
 @media only screen and (max-width : 1200px){
 	.row { padding: 0 2%;}
 	
-	.main-nav li{
-		margin-left: 0;
-	}
-
-	
+	.main-nav li{margin-left: 0;}
 	.main-nav li a:link,
     .main-nav li a:visited,
 	.sticky .main-nav li a:link,
     .sticky .main-nav li a:visited, {font-size: 90%;}
-
-
 
 	
 }
@@ -31,22 +25,24 @@
 	}
 	
 	.main-nav li{padding: 40px 10px;}
-	
-	.main-nav li ul{margin-left: -10px;}
-	
-	.sticky .main-nav li ul {margin-left:-20px;}
-	
-	.flags li {margin:2px 15px 0 15px;}
-	
-
+	.main-nav li ul{margin-left: -10px;}	
 	.main-nav li a:link,
     .main-nav li a:visited{font-size: 90%;}
+	
+	.sticky .main-nav li ul {margin-left:-20px;}
+	.sticky .main-nav li{font-size: 80%;}
+	.sticky .main-nav ul li{font-size: 110%;}
+	
+	.flags li {margin:2px 15px 0 15px;}
+
+	.field-box{height: 530px;}
 	
 	.progressbar li:after {left: -58%;}
 	
 	.btn-contact:link, .btn-contact:visited {margin: 30px 20%;}
+	
+	.form-box{width: 100%;}
     
-
 }
 
 
@@ -56,95 +52,35 @@
     body { font-size: 16px;}
     section { padding: 30px 0;}
 	h2 {font-size: 170%;}
+	footer .col {width: 50%;}
 	
 	.main-nav{
 		padding-top:40px;
 		display:none;
 	}
-	
-	footer .col {width: 50%;}
-	
-	.col {
-		width: 100%;
-		margin: 0 0 4% 0;
-	}
-	
-
-	
-	.flags li {
-		display: inline-block;
-	}
-    
-    .mobile-nav-icon{
-        display: block; /*fait apparaitre la barre de navigation*/
-		position: absolute;
+	.mobile-nav-icon{
+        display: block; 
+		position: fixed;
 		right: 2%;
+		top: -1%;
     }
-
+	
+	.flags li {display: inline-block;}
+	
+	.presentation{
+		margin: 0 10%;
+		width: 80%;
+	}
 
 	.stages-text {height: auto;}
 	.stages-text h3 {display: block;}
 	.stages-text p {display: block;}
 	.progressbar{display: none;}
 
-	
-
-
-    .main-nav-solar {
-        float: left;
-        margin-top : 35px;
-        margin-left: 25px;
-    }
-
-    .main-nav-solar ul li{
-        display:block; /*pour qu'ils soient les uns au dessous des autres : block force le saut à la ligne*/
-        padding : 10px 0;
-        font-size: 100%;
-    }
-
-
-	.main-nav{display: none;}
-
-
-    h2 {font-size: 170%;}
-	
-	.stages-text {
-		height: auto;
-	}
-	
-	.bulle {
-		border-radius:0%;
-		border: 1px solid transparent;
-		height: 150px;
-	}
 	.age-entreprise .bulle {margin-left: 0;}
 	.taille-entreprise .bulle {margin-right: 0;}
-
-
-	.bulle p{
-		font-size: 180%;
-		padding-top: 50px;
-	}
-    .ligne-3-bulles{display: none;}
-    .ligne-2-bulles{display: none;}
-
-    .small-screen-list{
-        display: block;
-        font-size: 130%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: -20px;
-        padding: 10px 15px;
-        border: 1px solid #8dae32;
-    }
-
-    h1 {font-size: 180%;}
-    h2 {font-size: 170%;}
-
 	
-	.field-box {
-		height: 320px;
-	}
+	.field-box {height: 320px;}
 
 }
 
@@ -152,33 +88,22 @@
 /*Small phones: from 0 to 48px*/
 @media only screen and (max-width : 480px){
     section {padding: 25px 0;}
-    .form-box {width: 95%;}
-	
-	.main-section{
-		top:40%;
-	}
-	
-	.main-nav{
-		padding-top:20px;
-	}
-	
-	.btn-contact:link, .btn-contact:visited {
-		margin: 30px 10%;
-	}
-	
-	h1:after {
-		width: 100px;
-	}
-	
+	h1:after {width: 100px;}
 	h1{
 		font-family: 'Lato';
 		font-weight: 300;
 		font-size: 190%;
 	}
+	.col p {margin: 10px 0;}
+    .form-box {width: 95%;}
 	
-	.info-text {
-		width:90%;
-	}
+	.main-section{top:40%;}
+	
+	.main-nav{padding-top:20px;}
+	
+	.btn-contact:link, .btn-contact:visited {margin: 30px 10%;}
+	
+	.info-text {width:100%;}
 	
 
     

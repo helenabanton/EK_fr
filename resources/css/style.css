@@ -163,7 +163,7 @@ ul li {
 .col p {
 	text-align: center;
 	width: 95%;
-	margin-left: 5%;
+	margin: 0 5%;
 }
 
 /*-- icons --*/
@@ -237,11 +237,6 @@ table{
 .error {
 	padding: 10px;
 	background-color: rgba(172, 0, 0, 0.25);
-}
-
-.success {
-	padding: 10px;
-	background-color: rgba(162, 199, 59, 0.25);
 }
 
 .success {
@@ -556,6 +551,7 @@ nav {
 	transform: scale(1.05);
 }
 
+
 /*-------------------------------------------*/
 
 /* FORM */
@@ -573,10 +569,12 @@ nav {
 
 .office h3 {
 	margin-bottom: 7px;
+	text-align: left;
 }
 
 .office p {
 	margin-bottom: 7px;
+	text-align: left;
 }
 
 
