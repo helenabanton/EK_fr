@@ -1245,6 +1245,9 @@ textarea {
     transform: scale(1.02);
 }
 
+.small-screen-liens{
+    display: none
+}
 
 /*-------------------------------------------*/
 
