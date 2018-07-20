@@ -284,8 +284,10 @@ footer p {
 /*-------------------------------------------*/
 
 header {
+	position: relative;
 	height: 100px;
 	background-color: #fff;
+	z-index: 999;
 }
 
 .flags {
@@ -385,7 +387,7 @@ nav {
 	margin-top: 20px;
 }
 
-
+/*-- mobile nav -- */
 
 .mobile-nav-icon {
 	float: right;
@@ -399,6 +401,11 @@ nav {
 .mobile-nav-icon:hover,
 .mobile-nav-icon:active {
 	border: 0;
+}
+
+.mobile {
+	height: 400px;
+	background-color: #4b4bc4;
 }
 
 /*-------------------------------------------*/

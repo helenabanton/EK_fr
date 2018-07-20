@@ -121,4 +121,14 @@ $(document).ready(function() {
 		$('.js--text-step-5').fadeIn(100);
 	});
 
+	
+	//* mobile nav *//
+	
+	$('.js--nav-icon').click(function(){
+		if($('.js--header').hasClass('mobile')){
+		    $('.js--header').removeClass('mobile');
+		} else {
+			$('.js--header').addClass('mobile');
+		}
+	});
 });
