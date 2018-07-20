@@ -403,42 +403,6 @@ nav {
 	border: 0;
 }
 
-/*
-.mobile {
-	height: 800px;
-	background-color: #4b4bc4;
-}
-
-.mobile .logo{
-	position: fixed;
-}
-
-.mobile .main-nav {
-	background: none;
-	background-color: yellow;
-	display: inline-block;
-	float: left;
-	margin-top: 100px;
-	padding: 0;
-	height: auto;
-}
-
-.mobile .main-nav ul li {
-	display: block;
-	font-size: 110%;
-	padding: 20px;
-}
-
-.mobile .main-nav li ul {
-	display: none;
-}
-
-.mobile .main-nav li:hover ul{
-	display: block;
-	margin-top: -40.5px;
-	margin-left: 155px;
-}
-*/
 
 /*-------------------------------------------*/
 
