@@ -1,6 +1,17 @@
 /*Big tablets, laptop : from 1024px to 1200px (smaller than the 1140px row) */
 @media only screen and (max-width : 1200px){
 	.row { padding: 0 2%;}
+	
+	.main-nav li{
+		margin-left: 0;
+	}
+
+	
+	.main-nav li a:link,
+    .main-nav li a:visited,
+	.sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited, {font-size: 90%;}
+
 
 
 	
@@ -18,22 +29,22 @@
 		width: auto;
 		margin-top: 20px;
 	}
-
 	
+	.main-nav li{padding: 40px 10px;}
+	
+	.main-nav li ul{margin-left: -10px;}
+	
+	.sticky .main-nav li ul {margin-left:-20px;}
+	
+	.flags li {margin:2px 15px 0 15px;}
 	
 
 	.main-nav li a:link,
-    .main-nav li a:visited{
-		font-size: 87%;
-    }
+    .main-nav li a:visited{font-size: 90%;}
 	
-	.progressbar li:after {
-		left: -58%;
-	}
+	.progressbar li:after {left: -58%;}
 	
-	.btn-contact:link, .btn-contact:visited {
-		margin: 30px 20%;
-	}
+	.btn-contact:link, .btn-contact:visited {margin: 30px 20%;}
     
 
 }
@@ -58,9 +69,10 @@
 		margin: 0 0 4% 0;
 	}
 	
-	.main-section {
-		width: 70%;
-		left: 15%;
+
+	
+	.flags li {
+		display: inline-block;
 	}
     
     .mobile-nav-icon{
