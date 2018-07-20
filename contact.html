@@ -93,13 +93,57 @@
 						</ul>
 					</div>
 				</nav>
-					<a class="mobile-nav-icon js--nav-icon">
-						<ion-icon name="ios-menu"></ion-icon>
-					</a>
-
+				<a class="mobile-nav-icon js--nav-icon">
+					<ion-icon name="ios-menu"></ion-icon>
+				</a>
 			</div>
 		</header>
 
+			
+		<section class="bandeau bandeau-contact">
+			<div class="row">
+				<div class="main-title">
+					<h1>Contact</h1>
+				</div>
+				<div class="arrow">
+					<a href="#" class="js--arrow"><ion-icon name="ios-arrow-down" class="icon-arrow"></ion-icon></a>
+				</div>
+			</div>
+		</section>
+
+		<section class="js--sticky">
+			<div class="row">
+				<h2>Que pouvons-nous faire pour vous ?</h2>
+			</div>
+			<div class="form-box">
+				<form method="post" action="mailer-new.php" class="contact-form">
+					<div class="row">
+						<div class="col span-1-of-3">
+							<div class="office">
+								<h3>Notre bureau en France</h3>
+								<p>téléphone</p>
+								<p>adresse</p>
+							</div>
+						</div>
+						<div class="col span-2-of-3">
+							<div class="form-row">
+								<input type="text" name="name" id="name" placeholder="Votre nom" required>
+							</div>
+							<div class="form-row">
+								<input type="email" name="email" id="email" placeholder="Votre email" required>
+							</div>
+							<div class="form-row">
+								<textarea name="message" placeholder="Votre message"></textarea>
+							</div>
+							<div class="col span-2-of-3">
+								<input type="submit" value="Envoyer">
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+
+		</section>
 
 
 		<footer>
@@ -178,6 +222,7 @@
 			</ul>
 		</div>
 	</section>
+
 
 
 	<!-- all browsers -->

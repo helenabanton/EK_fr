@@ -17,30 +17,59 @@
 @media only screen and (max-width : 1023px){
     body { font-size: 18px; }
     section { padding: 60px 0;}
+	.section-image img{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
 	.logo {
 		height: 40px;
 		width: auto;
 		margin-top: 20px;
 	}
+	footer .col {width: 49%;}
 	
 	.main-nav li{padding: 40px 10px;}
 	.main-nav li ul{margin-left: -10px;}	
 	.main-nav li a:link,
     .main-nav li a:visited{font-size: 90%;}
 	
-	.sticky .main-nav li ul {margin-left:-20px;}
-	.sticky .main-nav li{font-size: 80%;}
-	.sticky .main-nav ul li{font-size: 110%;}
+	.sticky .main-nav li ul {margin-left:-10px;}
+	.sticky .main-nav li {padding: 20px 10px;}
+	.sticky .main-nav li a{font-size: 100%;}
+	.sticky .main-nav li ul li a{font-size: 110%;}
 	
 	.flags li {margin:2px 15px 0 15px;}
 
-	.field-box{height: 530px;}
+	.field-box{
+		height: 530px;
+		margin: 10px 2px;
+	}
 	
 	.progressbar li:after {left: -58%;}
 	
-	.btn-contact:link, .btn-contact:visited {margin: 30px 20%;}
+	.btn-contact:link, .btn-contact:visited {
+		width: 60%;
+		margin: 30px 20%;
+	}
 	
 	.form-box{width: 100%;}
+	
+	.liste-promesse h3{
+		margin:0 15% 2% 15%;
+		width: 70%
+	}
+	
+	.description-eo-sol{margin:0 15%;}
+	.image-data{
+		width: 50%;
+		margin: 0 25%;
+	}
+	
+	.info-text {
+		width:90%; 
+		margin: 0 5%;
+	}
     
 
 }
@@ -52,11 +81,14 @@
     body { font-size: 16px;}
     section { padding: 30px 0;}
 	h2 {font-size: 170%;}
-	footer .col {width: 50%;}
-	
-    .icon-media{
-        display: none;
-    }
+	.col{ 
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+
+
+    .icon-media{ display: none;}
 
 	.main-nav{
 		padding-top:40px;
@@ -76,13 +108,24 @@
 		width: 80%;
 	}
 
+
 	.stages-text {height: auto;}
 	.stages-text h3 {display: block;}
 	.stages-text p {display: block;}
 	.progressbar{display: none;}
 
-	.age-entreprise .bulle {margin-left: 0;}
-	.taille-entreprise .bulle {margin-right: 0;}
+	.bulle {
+		margin-left:0;
+		margin-right: 0;
+		border-radius: 0;
+		height: 80px;
+		float: left;
+	}
+	
+	.bulle p{
+		padding-top: 0;
+		font-size: 200%;
+	}
 	
 	.field-box {height: 320px;}
 
@@ -113,7 +156,8 @@
 	
 	.btn-contact:link, .btn-contact:visited {margin: 30px 10%;}
 	
-	.info-text {width:100%;}
+
+
 	
 
     
