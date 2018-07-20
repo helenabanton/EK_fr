@@ -125,10 +125,13 @@ $(document).ready(function() {
 	//* mobile nav *//
 	
 	$('.js--nav-icon').click(function(){
-		if($('.js--header').hasClass('mobile')){
-		    $('.js--header').removeClass('mobile');
-		} else {
-			$('.js--header').addClass('mobile');
-		}
+		document.querySelector('.js--main-content').style.display='none';
+		document.querySelector('.js--s-mobile').style.display='block';
+		document.querySelector('.mobile').style.display='block';
+	});
+	
+	$('.js--nav-out').click(function(){
+		document.querySelector('.js--main-content').style.display='block';
+		document.querySelector('.js--s-mobile').style.display='none';
 	});
 });
