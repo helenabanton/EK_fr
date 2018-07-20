@@ -1199,20 +1199,45 @@ textarea {
     background-image: linear-gradient(rgba(255, 255, 255, 0.53),rgba(255, 255, 255, 0.53)),url(img/news_bandeau.jpg);
 }
 
+.medias p{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.media-text{
+    border-bottom: 1px solid #a2c73b;
+}
+
 .lien-medias{
     text-align: center;
 }
 
 .lien-medias li{
     font-size: 120%;
-    padding: 5px 0;
+    padding: 30px 0;
+}
+
+.ligne-liste-media{
+    border-bottom: 1px solid #a2c73b;
+    padding-top: 18px;
+}
+
+.ligne-liste-media:first-of-type{
+
 }
 
 .icon-media{
     display: inline-block;
     color: #a2c73b;
-    font-size: 700%;
+    font-size: 500%;
     text-align: center;
+    vertical-align: middle;
+    transition: color 0.2s, transform 0.2s;
+}
+
+.icon-media:hover{
+    color: #8dae32;
+    transform: scale(1.02);
 }
 
 
