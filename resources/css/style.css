@@ -1,4 +1,4 @@
-/* couleur : #a2c73b*/
+/* couleur : #a2c73b */
 
 /* dark : #8dae32 */
 
@@ -71,7 +71,7 @@ h1 {
 
 h1:after {
 	display: block;
-	height: 2px;
+	height: 3px;
 	background-color: #a2c73b;
 	content: "";
 	width: 300px;
@@ -95,7 +95,8 @@ h2 {
 h3 {
 	font-size: 120%;
 	word-spacing: 1px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	color: #666;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
@@ -123,6 +124,7 @@ p {
 
 .info-text {
 	width: 80%;
+	margin: 0 10%;
 }
 
 
@@ -155,6 +157,16 @@ ul li {
 	font-weight: 400;
 }
 
+.col h3 {
+	text-align: center;
+}
+
+.col p {
+	text-align: center;
+	width: 95%;
+	margin: 0 5%;
+}
+
 /*-- icons --*/
 .icon-small{
     display:inline-block;
@@ -173,15 +185,13 @@ ul li {
 }
 
 .icon-arrow {
+	position: absolute;
+	left: 48%;
+	bottom: 5%;
 	display: block;
-	margin: 0 45% 0 46%;
 	color: #a2c73b;
 	font-size: 300%;
-	margin-bottom: 30px;
     transition: color 0.2s;
-    text-align: center;
-    vertical-align: middle;
-    padding: 0 15px;
 }
 
 .icon-arrow:hover{
@@ -189,19 +199,46 @@ ul li {
     transform: scale(1.1);
 }
 
+
 /*--- sections ---*/
 
 .bandeau{
     position: relative;
-	height: 900px;
+	height: 800px;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
     height: 650px;
 }
 
+.bandeau p {
+	font-size: 80%;
+	position: absolute;
+	right: 10px;
+	top: 90%;
+	color: #333;
+}
+
 .section-odd{
     background-color: #f5f5f5;
+}
+
+.section-image img {
+	width: 80%;
+	height: auto;
+	margin: 30px 10%;
+}
+
+/*--- tableau ---*/
+
+td{
+    border: 1px solid #a2c73b;
+}
+
+table{
+    border: none;
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+
 }
 
 /*--- php ---*/
@@ -216,23 +253,37 @@ ul li {
 	background-color: rgba(162, 199, 59, 0.25);
 }
 
-.success {
-	padding: 10px;
-	background-color: rgba(162, 199, 59, 0.25);
+
+
+/*-------------------------------------------*/
+
+/* FOOTER */
+
+/*-------------------------------------------*/
+
+footer {
+	background-image: url(img/Camouflage_GIS.png);
+	padding-top:10px;
 }
 
+footer li {
+	float: left;
+	font-size: 70%;
+}
 
+footer p {
+	text-align: center;
+	font-size: 80%;
+}
 
+.language-links {
+	float: right;
+}
 
-/*-------------------------------------------*/
+.footer-nav li:first-child {
+	margin-left: 0;
+}
 
-/*-------------------------------------------*/
-
-/* INDEX PAGE */
-
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
 
 
 /*-------------------------------------------*/
@@ -242,8 +293,10 @@ ul li {
 /*-------------------------------------------*/
 
 header {
+	position: relative;
 	height: 100px;
 	background-color: #fff;
+	z-index: 999;
 }
 
 .flags {
@@ -252,14 +305,12 @@ header {
 }
 
 .flags li {
-    display: inline-block;
-    padding: 3px;
+    margin: 2px 25px 0 0;
 }
 
 /*-- main nav -- */
 
 nav {
-	width: 90%;
 	padding: 0 5%;
 }
 
@@ -280,10 +331,12 @@ nav {
 	display: inline-block;
 	font-size: 85%;
 	padding: 40px 20px;
+	margin-left: 20px;
 }
 
+
 .main-nav li:hover {
-	background-color: rgba(162, 199, 59);
+	background:url(img/Camouflage_GIS.png);
 }
 
 .main-nav a:active, .main-nav a:hover{
@@ -306,6 +359,7 @@ nav {
 }
 
 .main-nav li ul li:hover{
+	background: none;
 	background-color: #fff;
 }
 
@@ -329,11 +383,12 @@ nav {
 }
 
 .sticky .main-nav li{
-	font-size: 80%;
+	font-size: 90%;
 	padding: 20px 20px;
 }
 
 .sticky .main-nav li:hover {
+	background:none;
 	background-color: #fff;
 }
 
@@ -341,7 +396,7 @@ nav {
 	margin-top: 20px;
 }
 
-
+/*-- mobile nav -- */
 
 .mobile-nav-icon {
 	float: right;
@@ -357,20 +412,26 @@ nav {
 	border: 0;
 }
 
-/*-------------------------------------------*/
-
-/* ACCUEIL */
 
 /*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* INDEX PAGE */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
 
 .main-section {
 	position: relative;
-	height: 900px;
+	height: 650px;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.9))), url(img/renewable-1989416_1920.jpg);
-	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url(img/renewable-1989416_1920.jpg);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url(img/main-section.jpg);
 	z-index: 1;
 }
 
@@ -378,7 +439,7 @@ nav {
 	position: relative;
 	width: 80%;
 	display: inline-block;
-	margin: 250px 10%;
+	margin: 180px 10% 0 10%;
 	text-align: center;
 }
 
@@ -389,6 +450,38 @@ nav {
 /* ENTREPRISE */
 
 /*-------------------------------------------*/
+
+.presentation{
+	width: 70%;
+	margin: 40px 15%;
+	padding: 40px;
+	border: 2px solid #8dae32;	
+}
+
+.info-box {
+	border: 2px solid #8dae32;
+	width: 40%;
+	margin: 20px 30%;
+	padding: 20px;
+	background-color: #f1f1f1;
+	border-radius: 6%;
+	transition: border-color 0.2s ease;
+}
+
+.info-box:hover {
+	border-color:#a2c73b; 
+}
+
+.info-box a{
+	text-align: center;
+}
+
+
+.info-box a:hover p{
+	font-weight: 400;
+}
+
+/*
 
 .bulle{
 	display: inline-block;
@@ -436,6 +529,7 @@ nav {
 .bulle:hover{
     background-size: 180%;
 }
+*/
 
 /*-------------------------------------------*/
 
@@ -495,15 +589,12 @@ nav {
 	transform: scale(1.05);
 }
 
+
 /*-------------------------------------------*/
 
 /* FORM */
 
 /*-------------------------------------------*/
-
-.section-form {
-	background-color: #faf7f7;
-}
 
 .form-box {
 	width: 70%;
@@ -516,10 +607,12 @@ nav {
 
 .office h3 {
 	margin-bottom: 7px;
+	text-align: left;
 }
 
 .office p {
 	margin-bottom: 7px;
+	text-align: left;
 }
 
 
@@ -542,38 +635,147 @@ textarea {
 }
 
 
+
+
 /*-------------------------------------------*/
 
-/* FOOTER */
+/*-------------------------------------------*/
+
+/* ENTREPRISE PIONNIERE */
 
 /*-------------------------------------------*/
 
-footer {
-	background-image: url(img/Camouflage_GIS.png);
-	padding-top:10px;
+/*-------------------------------------------*/
+
+.bandeau-entreprise {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.4)),url(img/entreprise_bandeau.jpg); 
 }
 
-footer li {
-	float: left;
-	font-size: 70%;
+.date-list {
+	width: 80%;
+	margin: 0 10%;
 }
 
-footer p {
-	text-align: center;
-	font-size: 80%;
+.date-list li {
+	display: block;
+	margin: 4px 0;
 }
 
-.language-links {
-	float: right;
+.date-list p {
+	color: #a2c73b;
+	font-weight: 400;
+	display: inline-block;
 }
 
-.footer-nav li:first-child {
-	margin-left: 0;
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* VALEURS */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+.bandeau-valeurs {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.72)),url(img/valeurs_bandeau.jpg); 
+}
+
+.row-family b{
+	color: #a2c73b;
+}
+
+.section-family img {
+	width: 40%;
+	margin: 0 30%;
+}
+
+.section-valeurs img {
+	width: 30%;
+	height: 60%;
+	margin: 0 35% 30px 35%;	
+}
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* MISSION */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+.liste-promesse h3{
+    width:60%;
+    margin:0 20% 2% 20%;
+}
+
+.liste-promesse img{
+    height: 80px;
+    width: auto;
+    display:inline-block;
 }
 
 
+.liste-promesse p{
+    display: inline-block;
+    font-size: 115%;
+    padding-bottom: 1.5%;
+    vertical-align:bottom;
+}
+
+.liste-promesse-point{
+    padding-bottom: 3%;
+    margin-left: 25%;
+}
+
+.diagramme-mission img{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.bandeau-mission{
+    background-image: linear-gradient(rgba(219, 219, 219, 0.46),rgba(219, 219, 219, 0.46)),url(img/mission_bandeau.jpg);
+}
+
+.bandeau-mission h1{
+    color: #fff;
+}
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* PRIX ET DISTINCTIONS */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+.bandeau-prix {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3)),url(img/prix_bandeau.jpg);
+    background-position: center;
+}
+
+.img-awards {
+	width: 20%;
+	height: auto;
+	margin: 0 40% 25px 40%;
+}
 
 
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* PRESENCE DANS LE MONDE */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+.bandeau-world {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3)),url(img/world_bandeau.jpg); 
+}
 
 
 /*-------------------------------------------*/
@@ -587,20 +789,13 @@ footer p {
 /*-------------------------------------------*/
 
 .bandeau-projet {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)),url(img/johannes-plenio-262511-unsplash.jpg); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)),url(img/projet_bandeau.jpg); 
 }
 
 .bandeau-projet h1 {
     color: #fff;
 }
 
-
-
-/*-------------------------------------------*/
-
-/* DEVELOPMENT */
-
-/*-------------------------------------------*/
 
 /* progress bar */
 .progressbar {
@@ -708,170 +903,113 @@ footer p {
 	display: block;
 }
 
+
+
 /*-------------------------------------------*/
 
-/* EOLIEN-SOLAIRE */
+/*-------------------------------------------*/
+
+/* ENERGIE EOLIENNE PAGE */
+
+/*-------------------------------------------*/
 
 /*-------------------------------------------*/
 
 
-.ligne-3-bulles p{
-    text-align: center;
-    padding: 24% 3%;
-    font-size: 130%;
-    border: 1px solid #a2c73b;
-    height:250px;
-    width:250px;
-    border-radius: 50%;
-    margin: 0 14.5%;
-    vertical-align: middle;
-    background-color: #ffffff;
-    transition: background-color 0.2s;
+.bandeau-eolienne{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(img/eolienne_bandeau.jpg);
 }
 
-.ligne-3-bulles p a:hover{
-    border-bottom: 1px solid transparent;
+
+.description-eo-sol{
+    display: inline-block;
+    width: 70%;
+}
+
+.description-eo-sol p{
     color: #a2c73b;
 }
 
-
-.ligne-3-bulles p:hover{
-    background-color: #f5f5f5;
+.energie-eo-sol ul{
+    margin-bottom: 3%;
 }
 
-.ligne-2-bulles p{
-    border: 1px solid #a2c73b;
-    height:250px;
-    width:250px;
-    border-radius: 50%;
-    text-align: center;
-    padding: 24% 3%;
-    font-size: 130%;
-    background-color: #ffffff;
-    transition: background-color 0.2s;
+.energie-eo-sol ul li{
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
 }
 
-
-.ligne-2-bulles p:hover{
-    background-color: #f5f5f5;
+.image-data{
+    display: inline-block;
 }
 
-.ligne-bulle-2 .ligne-2-bulles:last-of-type p{
-    padding: 12% 2%;
-    margin-left: 10%;
-
+.image-data img{
+    height: 700px;
+    width: auto;
 }
-
-.ligne-bulle-2 .ligne-2-bulles:first-child p{
-    margin-left: 42%;
-    padding: 16% 2%;
-}
-
-
-.small-screen-list{
-    display: none;
-}
-
-.ligne-3-bulles p{
-    text-align: center;
-    padding: 24% 3%;
-    font-size: 130%;
-    border: 1px solid #a2c73b;
-    height:250px;
-    width:250px;
-    border-radius: 50%;
-    margin: 0 14.5%;
-    vertical-align: middle;
-    background-color: #ffffff;
-    transition: background-color 0.2s;
-}
-
-.ligne-3-bulles p a:hover{
-    border-bottom: 1px solid transparent;
-    color: #a2c73b;
-}
-
-.small-screen-list a:hover{
-    border-bottom: 1px solid transparent;
-    color: #a2c73b;
-}
-
-
-.ligne-3-bulles p:hover{
-    background-color: #f5f5f5;
-}
-
-.ligne-2-bulles p{
-    border: 1px solid #a2c73b;
-    height:250px;
-    width:250px;
-    border-radius: 50%;
-    text-align: center;
-    padding: 24% 3%;
-    font-size: 130%;
-    background-color: #ffffff;
-    transition: background-color 0.2s;
-}
-
-
-.ligne-2-bulles p:hover{
-    background-color: #f5f5f5;
-}
-
-.ligne-bulle-2 .ligne-2-bulles:last-of-type p{
-    padding: 12% 2%;
-    margin-left: 10%;
-
-}
-
-.ligne-bulle-2 .ligne-2-bulles:first-child p{
-    margin-left: 42%;
-    padding: 16% 2%;
-}
-
 
 
 /*-------------------------------------------*/
 
-/* EOLIEN */
-
 /*-------------------------------------------*/
-.section-eolien{
-    background-color: #fcf7f7;
-}
+
+/* ENERGIE SOLAIRE PAGE */
 
 /*-------------------------------------------*/
 
-/* SOLAIRE */
-
 /*-------------------------------------------*/
 
-.section-solaire .ligne-3-bulles p{
-    background-color: #fcf7f7;
+.bandeau-solaire{
+     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(img/solaire-bandeau.jpg);
 }
-
-.section-solaire .ligne-3-bulles p:hover{
-    background-color: #f4eeee;
-}
-
-.section-solaire .ligne-2-bulles p{
-    background-color: #fcf7f7;
-}
-
-.section-solaire .ligne-2-bulles p:hover{
-    background-color: #f4eeee;
-}
-
 
 
 /*-------------------------------------------*/
 
-/* OWNERS */
+/*-------------------------------------------*/
+
+/* CDV */
 
 /*-------------------------------------------*/
 
-.section-owners {
-	background-color: #faf7f7;
+/*-------------------------------------------*/
+
+.bandeau-cdv {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.8)),url(img/cdv_bandeau.jpg);
+}
+
+.section-cdv img{
+	width: 70%;
+	height: auto;
+	margin: 50px 15%;
+}
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* PPA */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+.bandeau-ppa {
+	background-image:linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url(img/ppa_bandeau.jpg);
+}
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* PROPRIETAIRES*/
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+.bandeau-proprio {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url(img/proprio_bandeau.jpg);
 }
 
 
@@ -887,17 +1025,6 @@ footer p {
 }
 
 
-
-.btn-contact:link, .btn-contact:visited{
-	display: inline-block;
-	margin: 30px 35%;
-	border: 2px solid #a2c73b;
-	color: #a2c73b;
-    padding : 10px 30px;
-    border-radius: 200px;
-	transition: border 0.2s, background-color 0.2s, color 0.2s;
-}
-
 .btn-contact:active, .btn-contact:hover{
 	border: 2px solid #8dae32;
 	color: #fff;
@@ -908,23 +1035,251 @@ footer p {
 
 /*-------------------------------------------*/
 
-/* ENERGIE EOLIENNE PAGE */
+/* MUNICIPALITE */
 
 /*-------------------------------------------*/
 
 /*-------------------------------------------*/
 
-/*-------------------------------------------*/
-
-/* SECTION BANDEAU */
-
-/*-------------------------------------------*/
-
-.bandeau-eolienne{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(img/Wittgeeste.jpg);
+.bandeau-muni {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.49),rgba(255, 255, 255, 0.5)),url(img/municipalite_bandeau.jpg);
 }
 
-.eolien-title{
-    margin-left: 20%;
-    margin-top: 10%;
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* OBJECTIFS FRANCE ET OCCITANIE */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+.bandeau-fr {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.6)),url(img/france_bandeau.jpeg);
 }
+
+.section-objectif img {
+	width: 60%;
+	height: auto;
+	margin: 40px 20%;
+}
+
+
+
+
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* REFERENCES PROJET */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+
+.bandeau-reference-projet{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.36),rgba(255, 255, 255, 0.36)),url(img/references-projet_bandeau.jpg);
+}
+
+
+.bandeau-reference-projet p {
+	font-size: 80%;
+	position: absolute;
+	right: 10px;
+	top: 90%;
+	color: #333;
+}
+
+.tableau-projets table{
+    display: inline-block;
+}
+
+/*-- Solar projects --*/
+
+
+.projects-showcase {
+	width: 100%;
+}
+
+.projects-showcase li {
+	display: block;
+	float: left;
+	width: 25%;
+	margin: 0;
+}
+
+.project-photo {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	background-color: #000;
+	padding: 0;
+}
+
+.project-photo img {
+	width: 100%;
+	height: auto;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	-webkit-transition: .5s ease;
+	transition: .5s ease;
+	background-color: #333;
+}
+
+.project-photo:hover .overlay {
+	opacity: 0.97;
+}
+
+.project-photo p {
+	color: #fff;
+	font-size: 85%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* REFERENCES PROJET */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+.bandeau-news{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.53),rgba(255, 255, 255, 0.53)),url(img/news_bandeau.jpg);
+}
+
+.medias p{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.media-text{
+    border-bottom: 1px solid #a2c73b;
+}
+
+.lien-medias{
+    text-align: center;
+}
+
+.lien-medias li{
+    font-size: 120%;
+    padding: 30px 0;
+}
+
+.ligne-liste-media{
+    border-bottom: 1px solid #a2c73b;
+    padding-top: 18px;
+}
+
+.ligne-liste-media:first-of-type{
+
+}
+
+.icon-media{
+    display: inline-block;
+    color: #a2c73b;
+    font-size: 500%;
+    text-align: center;
+    vertical-align: middle;
+    transition: color 0.2s, transform 0.2s;
+}
+
+.icon-media:hover{
+    color: #8dae32;
+    transform: scale(1.02);
+}
+
+.small-screen-liens{
+    display: none
+}
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* CONTACT */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+.bandeau-contact {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(img/contact_bandeau.jpg);
+}
+
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+/* MOBILE */
+
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+
+.section-mobile {
+	height: 800px;
+	background-color: #f4f4f4;
+	display: none;
+}
+
+.section-mobile li {
+	display: block;
+	font-weight: 400;
+	padding: 10px;
+	margin: 5px;
+}
+
+.section-mobile a:hover{
+	border-bottom: 2px solid transparent;
+	font-weight: 400;
+}
+
+.section-mobile li ul li{
+	font-weight: 300;
+	padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

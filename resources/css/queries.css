@@ -1,8 +1,12 @@
 /*Big tablets, laptop : from 1024px to 1200px (smaller than the 1140px row) */
 @media only screen and (max-width : 1200px){
 	.row { padding: 0 2%;}
-
-
+	
+	.main-nav li{margin-left: 0;}
+	.main-nav li a:link,
+    .main-nav li a:visited,
+	.sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited, {font-size: 90%;}
 	
 }
 
@@ -13,26 +17,58 @@
 @media only screen and (max-width : 1023px){
     body { font-size: 18px; }
     section { padding: 60px 0;}
+	.section-image img{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
 	.logo {
 		height: 40px;
 		width: auto;
 		margin-top: 20px;
 	}
-
+	footer .col {width: 49%;}
 	
-	
-
+	.main-nav li{padding: 40px 10px;}
+	.main-nav li ul{margin-left: -10px;}	
 	.main-nav li a:link,
-    .main-nav li a:visited{
-		font-size: 87%;
-    }
+    .main-nav li a:visited{font-size: 90%;}
 	
-	.progressbar li:after {
-		left: -58%;
+	.sticky .main-nav li ul {margin-left:-10px;}
+	.sticky .main-nav li {padding: 20px 10px;}
+	.sticky .main-nav li a{font-size: 100%;}
+	.sticky .main-nav li ul li a{font-size: 110%;}
+	
+	.flags li {margin:2px 15px 0 15px;}
+
+	.field-box{
+		height: 530px;
+		margin: 10px 2px;
 	}
 	
+	.progressbar li:after {left: -58%;}
+	
 	.btn-contact:link, .btn-contact:visited {
+		width: 60%;
 		margin: 30px 20%;
+	}
+	
+	.form-box{width: 100%;}
+	
+	.liste-promesse h3{
+		margin:0 15% 2% 15%;
+		width: 70%
+	}
+	
+	.description-eo-sol{margin:0 15%;}
+	.image-data{
+		width: 50%;
+		margin: 0 25%;
+	}
+	
+	.info-text {
+		width:90%; 
+		margin: 0 5%;
 	}
     
 
@@ -45,29 +81,32 @@
     body { font-size: 16px;}
     section { padding: 30px 0;}
 	h2 {font-size: 170%;}
-	
+	.col{ 
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+
+
+    .icon-media{ display: none;}
+
 	.main-nav{
 		padding-top:40px;
-		display:none;
+		display: none;
 	}
-	
-	footer .col {width: 50%;}
-	
-	.col {
-		width: 100%;
-		margin: 0 0 4% 0;
-	}
-	
-	.main-section {
-		width: 70%;
-		left: 15%;
-	}
-    
-    .mobile-nav-icon{
-        display: block; /*fait apparaitre la barre de navigation*/
-		position: absolute;
+	.mobile-nav-icon{
+        display: block; 
+		position: fixed;
 		right: 2%;
+		top: -1%;
     }
+	
+	.flags li {display: inline-block;}
+	
+	.presentation{
+		margin: 0 10%;
+		width: 80%;
+	}
 
 
 	.stages-text {height: auto;}
@@ -75,98 +114,50 @@
 	.stages-text p {display: block;}
 	.progressbar{display: none;}
 
-	
-
-
-    .main-nav-solar {
-        float: left;
-        margin-top : 35px;
-        margin-left: 25px;
-    }
-
-    .main-nav-solar ul li{
-        display:block; /*pour qu'ils soient les uns au dessous des autres : block force le saut à la ligne*/
-        padding : 10px 0;
-        font-size: 100%;
-    }
-
-
-	.main-nav{display: none;}
-
-
-    h2 {font-size: 170%;}
-	
-	.stages-text {
-		height: auto;
-	}
-	
 	.bulle {
-		border-radius:0%;
-		border: 1px solid transparent;
-		height: 150px;
+		margin-left:0;
+		margin-right: 0;
+		border-radius: 0;
+		height: 80px;
+		float: left;
 	}
-	.age-entreprise .bulle {margin-left: 0;}
-	.taille-entreprise .bulle {margin-right: 0;}
-
-
+	
 	.bulle p{
-		font-size: 180%;
-		padding-top: 50px;
+		padding-top: 0;
+		font-size: 200%;
 	}
-    .ligne-3-bulles{display: none;}
-    .ligne-2-bulles{display: none;}
+	
+	.field-box {height: 320px;}
 
-    .small-screen-list{
+    .small-screen-liens{
         display: block;
-        font-size: 130%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: -20px;
-        padding: 10px 15px;
-        border: 1px solid #8dae32;
     }
 
-    h1 {font-size: 180%;}
-    h2 {font-size: 170%;}
-
-	
-	.field-box {
-		height: 320px;
-	}
-
+    .big-screen-liens{
+        display: none;
+    }
 }
 
 
 /*Small phones: from 0 to 48px*/
 @media only screen and (max-width : 480px){
     section {padding: 25px 0;}
-    .form-box {width: 95%;}
-	
-	.main-section{
-		top:40%;
-	}
-	
-	.main-nav{
-		padding-top:20px;
-	}
-	
-	.btn-contact:link, .btn-contact:visited {
-		margin: 30px 10%;
-	}
-	
-	h1:after {
-		width: 100px;
-	}
-	
+	h1:after {width: 100px;}
 	h1{
 		font-family: 'Lato';
 		font-weight: 300;
 		font-size: 190%;
 	}
+	.col p {margin: 10px 0;}
+    .form-box {width: 95%;}
 	
-	.info-text {
-		width:90%;
-	}
+	.main-section{top:40%;}
+
+	
+	.btn-contact:link, .btn-contact:visited {margin: 30px 10%;}
+	
+
+
 	
 
     

@@ -12,8 +12,14 @@ $(document).ready(function() {
 		offset:'60px;'
 	});
 	
+//* arrow *//
 	
-
+	$('.js--arrow').click(function(){
+		$('html,body').animate({scrollTop: $('.js--sticky').offset().top}, 1000);
+	});
+	
+	
+//*  progress bar  *//
 	$('.js--step-1').click(function(){
 		if($('.js--step-2').hasClass('active')){
 			$('.js--step-2').removeClass('active');
@@ -115,4 +121,17 @@ $(document).ready(function() {
 		$('.js--text-step-5').fadeIn(100);
 	});
 
+	
+	//* mobile nav *//
+	
+	$('.js--nav-icon').click(function(){
+		document.querySelector('.js--main-content').style.display='none';
+		document.querySelector('.js--s-mobile').style.display='block';
+		document.querySelector('.mobile').style.display='block';
+	});
+	
+	$('.js--nav-out').click(function(){
+		document.querySelector('.js--main-content').style.display='block';
+		document.querySelector('.js--s-mobile').style.display='none';
+	});
 });
