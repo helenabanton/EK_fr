@@ -459,6 +459,7 @@ nav {
 }
 
 .info-box {
+    display: block;
 	border: 2px solid #8dae32;
 	width: 40%;
 	margin: 20px 30%;
@@ -476,9 +477,18 @@ nav {
 	text-align: center;
 }
 
+.info-text{
+    display: block;
+    height: auto;
+}
 
 .info-box a:hover p{
 	font-weight: 400;
+}
+
+.info-box p{
+    text-align: center;
+    font-size: 120%;
 }
 
 /*
