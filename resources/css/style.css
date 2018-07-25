@@ -145,6 +145,7 @@ a:hover {
 	border-bottom: 2px solid #a2c73b;
 }
 
+
 ul {
 	list-style: none;
 }
@@ -691,8 +692,8 @@ textarea {
 }
 
 .diagramme-mission img{
-    width: 60%;
-    margin-left: 20%;
+    width: 80%;
+	margin: 0 10%;
 }
 
 .bandeau-mission{
