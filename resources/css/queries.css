@@ -59,19 +59,22 @@
 		margin:0 15% 2% 15%;
 		width: 70%
 	}
-	
-	.description-eo-sol{margin:0 15%;}
+
 	.data {
 		width: 100%;
 		height: auto;
-	}
-	.image-data{
-		display: none;
 	}
 	.info-text {
 		width:90%; 
 		margin: 0 5%;
 	}
+	
+	.image-data {display: none;}
+	.energie-eo-sol .col {
+		width: 80%;
+		margin: 0 10%;
+	}
+
     
 
 }
