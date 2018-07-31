@@ -185,11 +185,18 @@ ul li {
 	margin-bottom: 30px;
 }
 
-.icon-arrow {
+.arrow {
 	position: absolute;
-	left: 48%;
+	left: 47%;
 	bottom: 5%;
 	display: block;
+}
+
+.arrow a:hover{
+	border-bottom: 2px solid transparent;
+}
+
+.icon-arrow {
 	color: #a2c73b;
 	font-size: 300%;
     transition: color 0.2s;
@@ -239,7 +246,6 @@ td{
 table{
     border: none;
     border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
-
 }
 
 /*--- php ---*/
@@ -927,7 +933,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-solaire{
-     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(img/solaire-bandeau.jpg);
+     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(img/solaire_bandeau.jpg);
 }
 
 

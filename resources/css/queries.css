@@ -61,9 +61,17 @@
 	}
 	
 	.description-eo-sol{margin:0 15%;}
+	.data {
+		width: 100%;
+		height: auto;
+	}
 	.image-data{
 		width: 50%;
 		margin: 0 25%;
+		
+		align-items: center;
+		align-content: center;
+		align-self: center;
 	}
 	
 	.info-text {
@@ -85,9 +93,7 @@
 		width: 100%;
 		margin-bottom: 30px;
 	}
-
-
-
+	
     .icon-media{ display: none;}
 
 	.main-nav{
@@ -107,7 +113,8 @@
 		margin: 0 10%;
 		width: 80%;
 	}
-
+	
+	.arrow{left:43%;}
 
 	.stages-text {height: auto;}
 	.stages-text h3 {display: block;}
@@ -129,30 +136,39 @@
 	
 	.field-box {height: 320px;}
 
-    .small-screen-liens{
-        display: block;
-    }
+    .small-screen-liens{display: block; }
 
-    .big-screen-liens{
-        display: none;
-    }
+    .big-screen-liens{display: none;}
+	
+	.description-eo-sol{
+		width: 90%;
+		margin: 5% 0;
+	}
 }
 
 
 /*Small phones: from 0 to 48px*/
 @media only screen and (max-width : 480px){
     section {padding: 25px 0;}
+
 	h1:after {width: 100px;}
 	h1{
 		font-family: 'Lato';
 		font-weight: 300;
 		font-size: 190%;
 	}
-	.col p {margin: 10px 0;}
+	.col p {margin: 4px 0;}
     .form-box {width: 95%;}
 	
 	.main-section{top:40%;}
-
+	
+	.bandeau, .main-section {
+		height: 500px;
+	}
+	
+	.bandeau p{
+		top: 95%;
+	}
 	
 	.btn-contact:link, .btn-contact:visited {margin: 30px 10%;}
 	
