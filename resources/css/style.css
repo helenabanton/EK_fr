@@ -914,11 +914,15 @@ textarea {
 
 .description-eo-sol{
     display: inline-block;
-    width: 70%;
 }
 
 .description-eo-sol p{
+    text-align: left;
     color: #a2c73b;
+}
+
+.description-eo-sol h3{
+    text-align: left;
 }
 
 .energie-eo-sol ul{

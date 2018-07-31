@@ -66,20 +66,8 @@
 		height: auto;
 	}
 	.image-data{
-		width: 50%;
-		margin: 0 25%;
-		
-		-webkit-box-align: center;
-		
-		-ms-flex-align: center;
-		
-		align-items: center;
-		-ms-flex-line-pack: center;
-		align-content: center;
-		-ms-flex-item-align: center;
-		align-self: center;
+		display: none;
 	}
-	
 	.info-text {
 		width:90%; 
 		margin: 0 5%;
