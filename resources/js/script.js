@@ -127,7 +127,6 @@ $(document).ready(function() {
 	$('.js--nav-icon').click(function(){
 		document.querySelector('.js--main-content').style.display='none';
 		document.querySelector('.js--s-mobile').style.display='block';
-		document.querySelector('.mobile').style.display='block';
 	});
 	
 	$('.js--nav-out').click(function(){

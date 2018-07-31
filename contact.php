@@ -31,24 +31,24 @@
 
 <body>
 	<div class="main-content js--main-content">
-		<header class="main-header js--header">
+		<header class="main-header">
 			<div>
 				<div class="flags">
-					<ul>
-						<li><a href="https://www.energiekontor.de" title="Site Allemand" target="_blank"><img src="resources/img/if_DE_167808.png" alt="DE Flag"></a></li>
-						<li><a href="https://www.energiekontor.com" target="_blank"><img src="resources/img/if_US_167805.png" alt="US Flag" title="Site Américain"></a></li>
-						<li><a href="https://www.energiekontor.co.uk" target="_blank"><img src="resources/img/if_GB_167794.png" alt="GB Flag" title="Site Britannique" ></a></li>
-						<li><a href="http://www.rotorbladeextension.com/rotor-blade-extension-team/" title="Site Portugais" target="_blank"><img src="resources/img/if_PT_167831.png" alt="PT Flag"></a></li>
-					</ul>
-				</div>
+						<ul>
+							<li><a href="https://www.energiekontor.de" title="Site Allemand" target="_blank"><img src="resources/img/if_DE_167808.png" alt="DE Flag"></a></li>
+							<li><a href="https://www.energiekontor.com" target="_blank"><img src="resources/img/if_US_167805.png" alt="US Flag" title="Site Américain"></a></li>
+							<li><a href="https://www.energiekontor.co.uk" target="_blank"><img src="resources/img/if_GB_167794.png" alt="GB Flag" title="Site Britannique"></a></li>
+							<li><a href="http://www.rotorbladeextension.com/rotor-blade-extension-team/" title="Site Portugais" target="_blank"><img src="resources/img/if_PT_167831.png" alt="PT Flag"></a></li>
+						</ul>
+					</div>
 				<nav>
 					<div>
 						<a href="index.html">
 							<img src="resources/img/Energiekontor-Logo-2017_RGB.png" alt="logo EK" class="logo">
 						</a>
 					</div>
-					<div class="main-nav">
-						<ul>
+					<div>
+						<ul class="main-nav js--mobile">
 							<li>
 								<a>Energiekontor AG</a>
 								<ul>
@@ -93,17 +93,17 @@
 						</ul>
 					</div>
 				</nav>
-					<a class="mobile-nav-icon js--nav-icon">
-						<ion-icon name="ios-menu"></ion-icon>
-					</a>
-
+				<a class="mobile-nav-icon js--nav-icon">
+					<ion-icon name="ios-menu"></ion-icon>
+				</a>
 			</div>
 		</header>
 
-		<section class="main-section">
+			
+		<section class="bandeau bandeau-contact">
 			<div class="row">
 				<div class="main-title">
-					<h1>Pionnier des énergies renouvelables,<br> depuis 1990</h1>
+					<h1>Contact</h1>
 				</div>
 				<div class="arrow">
 					<a href="#" class="js--arrow"><ion-icon name="ios-arrow-down" class="icon-arrow"></ion-icon></a>
@@ -112,75 +112,6 @@
 		</section>
 
 		<section class="js--sticky">
-			<div class="presentation">
-				<p>Le changement climatique est un réel challenge pour notre génération et celles à venir. <br>
-				Face à ces dérèglements qui menacent les Hommes et les écosystèmes, il est urgent de réagir et de savoir s'affranchir des combustibles fossiles.
-				Les énergies renouvelables sont notre meilleur atout. <br>
-				Pionnier en matière de transition énergétique depuis près de trente ans, EnergieKontor accompagne les territoires pour valoriser leurs potentiels énergétiques, sous deux formes.<br><br>
-				<b>Nous vous invitons à les découvrir.</b><br><br>
-				<em>PETER SZABO &mdash; Président EnergieKontor</em>
-				</p>
-			</div>
-
-		</section>
-
-		<section class="section-odd">
-			<div class="row">
-				<h2>Qui sommes nous?</h2>
-			</div>
-			<div class="row">
-				<div class="info-text">
-					<p>
-						Fondé à Bremerhaven en <b>1990</b>, EnergieKontor a été un des <b>pionniers</b> de l'industrie éolienne et n'a depuis cessé d'évoluer, jusqu'à devenir aujourd'hui un des <b>leaders du développement de projets EnR</b>.<br>
-						Nous réalisons nos projets <b>"clés en main"</b>, de la faisabilité initiale jusqu'à la mise en service et l'exploitation, en passant par le financement et la construction, et nous possédons et gérons également nos propres installations, qui représentent à ce jour <b>238 MW</b>.
-					</p>
-				</div>
-                <div class="info-box">
-                    <a href="references_projets.html" target="_blank"><p>128 projets</p></a>
-                </div>
-			</div>
-			<div class="row">
-                <div class=info-text>
-                    <p>
-                        EnergieKontor s'est bien <b>agrandi</b> depuis sa création et compte un certain nombre de bureaux en <b>Allemagne</b>, notamment à Brême (siège social), Bremerhaven, Hagen im Bremischen, Aachen, Bernau et Dortmund. Elle s'est également développée au niveau européen, et possède des filiales en <b>Angleterre</b> (Leeds), <b>Écosse</b> (Glasgow), au <b>Portugal</b> (Lisbonne) et aux <b>Pays-Bas</b> (Nijmegen). Aujourd'hui, nous aimerions également étendre nos actvités à la <b>France</b> et aux <b>États-Unis</b>.
-                    </p>
-                </div>
-                <div class="info-box">
-                    <a href="presence_dans_le_monde.html" target="_blank"><p>7 pays</p></a>
-                </div>
-			</div>
-		</section>
-
-		<section class="section-fields">
-			<div class="row">
-				<h2>Nos secteurs d'activité</h2>
-			</div>
-			<div class="row">
-				<div class="col span-1-of-3">
-					<div class="field-box">
-						<ion-icon name="flash" class="icon-big"></ion-icon>
-						<h3>Développement et vente de projets (Eolien, Solaire)</h3>
-						<p>Du développement au travers de la planification, du financement et de la construction jusqu'à la mise en service et à la vente</p>
-					</div>
-				</div>
-				<div class="col span-1-of-3">
-					<div class="field-box">
-						<ion-icon name="paper-plane" class="icon-big"></ion-icon>
-						<h3>Production d'électricité dans des fermes éoliennes et solaires appartenant au Groupe</h3>
-						<p>L'extension de notre portfolio grâce à des fermes éoliennes auto-gérées par le Groupe apporte une plus grande indépendance financière</p>
-					</div>
-				</div>
-				<div class="col span-1-of-3">
-					<div class="field-box">
-						<ion-icon name="sunny" class="icon-big"></ion-icon>
-						<h3>Exploitation, Développement, Innovation et autres</h3>
-						<p>Des activités ayant pour but de réduire les coûts, augmenter la durée de vie et accroitre le rendement</p>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="section-odd">
 			<div class="row">
 				<h2>Que pouvons-nous faire pour vous ?</h2>
 			</div>
@@ -188,14 +119,14 @@
 				<form method="post" action="mailer-new.php" class="contact-form">
 					<div class="row">
 						<div class="col span-1-of-3">
-                             <?php
+                              <!-- <?php
                              if($_GET['success']==1){
                                     echo "<div class=\"form-messages success\"> Merci ! Votre message a été envoyé ! </div>";
                                 }
                              if($_GET['success']==-1){
                                     echo "<div class=\"form-messages error\"> Oups ! Quelque chose n'a pas fonctionné... Réessayez s'il vous plait !</div>";
                                 }
-                                ?>
+                                ?>-->
 							<div class="office">
 								<h3>Notre bureau en France</h3>
 								<p>téléphone</p>
@@ -221,6 +152,7 @@
 			</div>
 
 		</section>
+
 
 		<footer>
 			<div class="row">
@@ -298,6 +230,8 @@
 			</ul>
 		</div>
 	</section>
+
+
 
 	<!-- all browsers -->
 
