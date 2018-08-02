@@ -1048,7 +1048,7 @@ textarea {
 
 
 .bandeau-reference-projet{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.36),rgba(255, 255, 255, 0.36)),url(img/references-projet_bandeau.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.56),rgba(255, 255, 255, 0.56)),url(img/references-projet_bandeau.jpg);
 }
 
 
@@ -1058,6 +1058,14 @@ textarea {
 	right: 10px;
 	top: 90%;
 	color: #333;
+}
+
+.texte-indication p{
+    text-align: center;
+}
+
+.texte-indication{
+    margin-bottom: -25px;
 }
 
 .tableau-projets table{

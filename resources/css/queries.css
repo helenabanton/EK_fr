@@ -8,6 +8,9 @@
 	.sticky .main-nav li a:link,
     .sticky .main-nav li a:visited, {font-size: 90%;}
 	
+    .tableau-projet{
+        margin: 0 30%;
+    }
 }
 
 
