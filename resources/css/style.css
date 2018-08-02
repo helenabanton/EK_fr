@@ -185,18 +185,27 @@ ul li {
 	margin-bottom: 30px;
 }
 
-.icon-arrow {
+.arrow {
 	position: absolute;
-	left: 48%;
+	left: 47%;
 	bottom: 5%;
 	display: block;
+}
+
+.arrow a:hover{
+	border-bottom: 2px solid transparent;
+}
+
+.icon-arrow {
 	color: #a2c73b;
 	font-size: 300%;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
 .icon-arrow:hover{
     color: #ffffff;
+    -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
@@ -239,7 +248,6 @@ td{
 table{
     border: none;
     border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
-
 }
 
 /*--- php ---*/
@@ -431,7 +439,7 @@ nav {
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.9))), url(img/renewable-1989416_1920.jpg);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.9))), url(img/main-section.jpg);
 	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url(img/main-section.jpg);
 	z-index: 1;
 }
@@ -467,6 +475,7 @@ nav {
 	padding: 20px;
 	background-color: #f1f1f1;
 	border-radius: 6%;
+	-webkit-transition: border-color 0.2s ease;
 	transition: border-color 0.2s ease;
 }
 
@@ -510,7 +519,9 @@ nav {
     height: 410px;
     border-radius:10%;
     background-size: 130%;
+    -webkit-box-shadow: 0 1px 1px #909090;
     box-shadow: 0 1px 1px #909090;
+    -webkit-transition: background-size 0.3s;
     transition: background-size 0.3s;
     background-position: center;
 }
@@ -610,6 +621,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-entreprise {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.4))),url(img/entreprise_bandeau.jpg);
 	background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.4)),url(img/entreprise_bandeau.jpg); 
 }
 
@@ -640,6 +652,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-valeurs {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.85)), to(rgba(255, 255, 255, 0.72))),url(img/valeurs_bandeau.jpg);
 	background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.72)),url(img/valeurs_bandeau.jpg); 
 }
 
@@ -697,6 +710,7 @@ textarea {
 }
 
 .bandeau-mission{
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(219, 219, 219, 0.46)),to(rgba(219, 219, 219, 0.46))),url(img/mission_bandeau.jpg);
     background-image: linear-gradient(rgba(219, 219, 219, 0.46),rgba(219, 219, 219, 0.46)),url(img/mission_bandeau.jpg);
 }
 
@@ -714,6 +728,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-prix {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.3))),url(img/prix_bandeau.jpg);
 	background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3)),url(img/prix_bandeau.jpg);
     background-position: center;
 }
@@ -736,6 +751,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-world {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.3))),url(img/world_bandeau.jpg);
 	background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3)),url(img/world_bandeau.jpg); 
 }
 
@@ -751,6 +767,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-projet {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(255, 255, 255, 0.5))),url(img/projet_bandeau.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)),url(img/projet_bandeau.jpg); 
 }
 
@@ -810,35 +827,41 @@ textarea {
 
 .progressbar li.active {
 	color: #a2c73b;
+	-webkit-transition: color 0.5s ease;
 	transition: color 0.5s ease;
 }
 
 
 .progressbar li.active h3 {
 	color: #a2c73b;
+	-webkit-transition: color 0.5s ease;
 	transition: color 0.5s ease;
 }
 
 .progressbar li.active:before {
 	border-color: #a2c73b;
     background-color: #fff;
+	-webkit-transition: border-color 0.5s ease, background-color 0.5s ease;
 	transition: border-color 0.5s ease, background-color 0.5s ease;
 }
 
 
 .progressbar li.active h3 {
 	color: #a2c73b;
+	-webkit-transition: color 0.5s ease;
 	transition: color 0.5s ease;
 }
 
 .progressbar li.active:before {
 	border-color: #a2c73b;
+	-webkit-transition: border-color 0.5s ease;
 	transition: border-color 0.5s ease;
 }
 
 
 .progressbar li.active:after {
 	background-color: #a2c73b;
+	-webkit-transition: background-color 0.5s ease;
 	transition: background-color 0.5s ease;
 }
 
@@ -884,17 +907,22 @@ textarea {
 
 
 .bandeau-eolienne{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url(img/eolienne_bandeau.jpg);
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(img/eolienne_bandeau.jpg);
 }
 
 
 .description-eo-sol{
     display: inline-block;
-    width: 70%;
 }
 
 .description-eo-sol p{
+    text-align: left;
     color: #a2c73b;
+}
+
+.description-eo-sol h3{
+    text-align: left;
 }
 
 .energie-eo-sol ul{
@@ -927,7 +955,8 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-solaire{
-     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(img/solaire-bandeau.jpg);
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))),url(img/solaire_bandeau.jpg);
+     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(img/solaire_bandeau.jpg);
 }
 
 
@@ -942,6 +971,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-cdv {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.8))),url(img/cdv_bandeau.jpg);
 	background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.8)),url(img/cdv_bandeau.jpg);
 }
 
@@ -962,6 +992,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-ppa {
+	background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))),url(img/ppa_bandeau.jpg);
 	background-image:linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url(img/ppa_bandeau.jpg);
 }
 
@@ -976,6 +1007,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-proprio {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))),url(img/proprio_bandeau.jpg);
 	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url(img/proprio_bandeau.jpg);
 }
 
@@ -988,6 +1020,7 @@ textarea {
 	color: #a2c73b;
     padding : 10px 30px;
     border-radius: 200px;
+	-webkit-transition: border 0.2s, background-color 0.2s, color 0.2s;
 	transition: border 0.2s, background-color 0.2s, color 0.2s;
 }
 
@@ -1009,6 +1042,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-muni {
+	background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(255, 255, 255, 0.49)),to(rgba(255, 255, 255, 0.5))),url(img/municipalite_bandeau.jpg);
 	background-image: linear-gradient(rgba(255, 255, 255, 0.49),rgba(255, 255, 255, 0.5)),url(img/municipalite_bandeau.jpg);
 }
 
@@ -1023,6 +1057,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-fr {
+	background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(255, 255, 255, 0.4)),to(rgba(255, 255, 255, 0.6))),url(img/france_bandeau.jpeg);
 	background-image: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.6)),url(img/france_bandeau.jpeg);
 }
 
@@ -1048,7 +1083,12 @@ textarea {
 
 
 .bandeau-reference-projet{
+<<<<<<< HEAD
     background-image: linear-gradient(rgba(255, 255, 255, 0.56),rgba(255, 255, 255, 0.56)),url(img/references-projet_bandeau.jpg);
+=======
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(255, 255, 255, 0.36)),to(rgba(255, 255, 255, 0.36))),url(img/references-projet_bandeau.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.36),rgba(255, 255, 255, 0.36)),url(img/references-projet_bandeau.jpg);
+>>>>>>> 1cac2d0e4b83909dc82f649a66bd61a2af3615fc
 }
 
 
@@ -1144,6 +1184,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-news{
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(255, 255, 255, 0.53)),to(rgba(255, 255, 255, 0.53))),url(img/news_bandeau.jpg);
     background-image: linear-gradient(rgba(255, 255, 255, 0.53),rgba(255, 255, 255, 0.53)),url(img/news_bandeau.jpg);
 }
 
@@ -1180,11 +1221,15 @@ textarea {
     font-size: 500%;
     text-align: center;
     vertical-align: middle;
+    -webkit-transition: color 0.2s, -webkit-transform 0.2s;
+    transition: color 0.2s, -webkit-transform 0.2s;
     transition: color 0.2s, transform 0.2s;
+    transition: color 0.2s, transform 0.2s, -webkit-transform 0.2s;
 }
 
 .icon-media:hover{
     color: #8dae32;
+    -webkit-transform: scale(1.02);
     transform: scale(1.02);
 }
 
@@ -1203,6 +1248,7 @@ textarea {
 /*-------------------------------------------*/
 
 .bandeau-contact {
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(255, 255, 255, 0.7)),to(rgba(255, 255, 255, 0.3))),url(img/contact_bandeau.jpg);
     background-image: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3)),url(img/contact_bandeau.jpg);
 }
 
