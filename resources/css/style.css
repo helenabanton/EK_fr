@@ -1083,8 +1083,12 @@ textarea {
 
 
 .bandeau-reference-projet{
+<<<<<<< HEAD
+    background-image: linear-gradient(rgba(255, 255, 255, 0.56),rgba(255, 255, 255, 0.56)),url(img/references-projet_bandeau.jpg);
+=======
     background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(255, 255, 255, 0.36)),to(rgba(255, 255, 255, 0.36))),url(img/references-projet_bandeau.jpg);
     background-image: linear-gradient(rgba(255, 255, 255, 0.36),rgba(255, 255, 255, 0.36)),url(img/references-projet_bandeau.jpg);
+>>>>>>> 1cac2d0e4b83909dc82f649a66bd61a2af3615fc
 }
 
 
@@ -1094,6 +1098,14 @@ textarea {
 	right: 10px;
 	top: 90%;
 	color: #333;
+}
+
+.texte-indication p{
+    text-align: center;
+}
+
+.texte-indication{
+    margin-bottom: -25px;
 }
 
 .tableau-projets table{
