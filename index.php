@@ -26,7 +26,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
 
-	<title>EnergieKontor France</title>
+	<title>Energiekontor France</title>
 </head>
 
 <body>
@@ -58,6 +58,7 @@
 									<li><a href="mission.html">Notre mission</a></li>
 									<li><a href="prix_distinctions.html">Prix et distinctions</a></li>
 									<li><a href="news_media.html">News &amp; Média</a></li>
+                                    <li><a href="https://www.energiekontor.de/en.html" target="_blank">Corporate website</a></li>
 								</ul>
 							</li>
 							<li>
@@ -116,7 +117,7 @@
 				<p>Le changement climatique est un réel challenge pour notre génération et celles à venir. <br>
 				Face à ces dérèglements qui menacent les Hommes et les écosystèmes, il est urgent de réagir et de savoir s'affranchir des combustibles fossiles.
 				Les énergies renouvelables sont notre meilleur atout. <br>
-				Pionnier en matière de transition énergétique depuis près de trente ans, EnergieKontor accompagne les territoires pour valoriser leurs potentiels énergétiques, sous deux formes.<br><br>
+				Pionnier en matière de transition énergétique depuis près de trente ans, Energiekontor accompagne les territoires pour valoriser leurs potentiels énergétiques, sous deux formes.<br><br>
 				<b>Nous vous invitons à les découvrir.</b><br><br>
 				<em>PETER SZABO &mdash; Président EnergieKontor</em>
 				</p>
@@ -146,7 +147,7 @@
                     </p>
                 </div>
                 <div class="info-box">
-                    <a href="presence_dans_le_monde.html" target="_blank"><p>7 pays</p></a>
+                    <a href="presence_dans_le_monde.html" target="_blank"><p>6 pays</p></a>
                 </div>
 			</div>
 		</section>
@@ -188,14 +189,14 @@
 				<form method="post" action="mailer-new.php" class="contact-form">
 					<div class="row">
 						<div class="col span-1-of-3">
-                             <?php
+                              <!-- <?php
                              if($_GET['success']==1){
                                     echo "<div class=\"form-messages success\"> Merci ! Votre message a été envoyé ! </div>";
                                 }
                              if($_GET['success']==-1){
                                     echo "<div class=\"form-messages error\"> Oups ! Quelque chose n'a pas fonctionné... Réessayez s'il vous plait !</div>";
                                 }
-                                ?>
+                                ?>-->
 							<div class="office">
 								<h3>Notre bureau en France</h3>
 								<p>téléphone</p>
@@ -263,6 +264,7 @@
 						<li><a href="mission.html">Notre mission</a></li>
 						<li><a href="prix_distinctions.html">Prix et distinctions</a></li>
 						<li><a href="news_media.html">News &amp; Média</a></li>
+                        <li><a href="https://www.energiekontor.de/en.html" target="_blank">Corporate website</a></li>
 					</ul>
 				</li>
 				<li>
