@@ -133,7 +133,7 @@
 				<div class="info-text">
 					<p>
 						Fondé à Bremerhaven en <b>1990</b>, EnergieKontor a été un des <b>pionniers</b> de l'industrie éolienne et n'a depuis cessé d'évoluer, jusqu'à devenir aujourd'hui un des <b>leaders du développement de projets EnR</b>.<br>
-						Nous réalisons nos projets <b>"clés en main"</b>, de la faisabilité initiale jusqu'à la mise en service et l'exploitation, en passant par le financement et la construction, et nous possédons et gérons également nos propres installations, qui représentent à ce jour <b>238 MW</b>.
+						Nous réalisons nos projets <b>"clés en main"</b>, de la faisabilité initiale jusqu'à la mise en service et l'exploitation, en passant par le financement et la construction, et nous possédons et gérons également nos propres installations, qui représentent à ce jour <b>270 MW</b>.
 					</p>
 				</div>
                 <div class="info-box">
